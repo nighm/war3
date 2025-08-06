@@ -1,0 +1,59 @@
+# 魔兽争霸3地图开发工作室配置文件
+
+# 魔兽争霸3相关配置
+war3:
+  # 魔兽争霸3安装路径（请根据实际情况修改）
+  installation_path: "C:\\Program Files\\Warcraft III"
+  # World Editor路径（如果与安装路径不同）
+  world_editor_path: ""
+  # JNGP路径（可选）
+  jngp_path: ""
+  # 地图目录
+  maps_directory: ""
+
+# 编辑器配置
+editor:
+  # 默认编辑器类型
+  default_editor: "world_editor"
+  # 自动保存间隔（分钟）
+  auto_save_interval: 5
+  # 是否启用备份
+  backup_enabled: true
+  # 备份间隔（分钟）
+  backup_interval: 10
+
+# 项目配置
+project:
+  # 默认项目类型
+  default_project_type: "rpg"
+  # 是否启用自动备份
+  auto_backup: true
+  # 是否启用版本控制
+  version_control: true
+
+# 开发配置
+development:
+  # 日志级别
+  log_level: "INFO"
+  # 是否启用调试模式
+  debug_mode: false
+  # 是否启用测试模式
+  test_mode: false
+
+# 界面配置
+interface:
+  # 默认语言
+  language: "zh_CN"
+  # 主题设置
+  theme: "default"
+  # 窗口大小
+  window_size: [1200, 800]
+
+# 工具配置
+tools:
+  # 是否启用地图优化
+  map_optimization: true
+  # 是否启用资源压缩
+  resource_compression: true
+  # 是否启用自动测试
+  auto_test: false 
