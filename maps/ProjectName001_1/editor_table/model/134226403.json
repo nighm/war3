@@ -1,0 +1,34 @@
+{
+    "anims": {}, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -64.0, 
+            -16.656147003173828, 
+            -63.999996185302734, 
+            64.0, 
+            0.04989999905228615, 
+            64.0
+        ]
+    }, 
+    "custom": true, 
+    "graph_info": {
+        "graph": null, 
+        "head_bone": "", 
+        "root_bone": "", 
+        "upper_bone": ""
+    }, 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134226403/\u5730\u7247"
+        ]
+    }, 
+    "model_id": 134226403, 
+    "name": "\u5730\u7247", 
+    "physics_meshes": [
+        "custom_model/134226403/AutoPhy_Mesh_\u5730\u7247"
+    ], 
+    "preview_icon": "UP1ModelPreview/134226403", 
+    "skeleton": ""
+}

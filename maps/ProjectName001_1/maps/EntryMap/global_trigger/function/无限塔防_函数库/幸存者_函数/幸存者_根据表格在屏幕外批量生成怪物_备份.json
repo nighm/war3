@@ -1,0 +1,1412 @@
+{
+    "action": [
+        [
+            1001640937, 
+            "根据所选的刷怪表中的配置生成怪物", 
+            730247211, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "生成器经过时间", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.0
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 730247211000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "最晚结束时间", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        -1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 730247211000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "TRAVERSE_TABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "刷怪表", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        [
+                                            "INTEGER", 
+                                            "temp", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100011, 
+                                            "args_list": [
+                                                [
+                                                    "TABLE", 
+                                                    "刷怪表", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [], 
+                                            "sub_type": "ITER_TABLE_KEY_STR"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "结束时间"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 730247211000003, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        [
+                                            "INTEGER", 
+                                            "最晚结束时间", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "最晚结束时间", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "temp", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": "MAX_INT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 730247211000004, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 730247211000005, 
+            "enable": true
+        }, 
+        {
+            "action_type": "RUN_LOOP_TIMER_NO_SAVE", 
+            "args_list": [
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        1.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "生成器经过时间", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                [
+                                                    "FLOAT", 
+                                                    "生成器经过时间", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }, 
+                                        {
+                                            "arg_type": 100017, 
+                                            "args_list": [
+                                                "+"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                1.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "ARITHMETIC_OPERATION"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 730247211000006, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        [
+                                            "POINT", 
+                                            "中心点", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                0.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "FLOAT_TO_POINT"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 730247211000007, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "最大半径", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        2700.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 730247211000008, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        [
+                                                            "FLOAT", 
+                                                            "生成器经过时间", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 2
+                                                }, 
+                                                {
+                                                    "arg_type": 100015, 
+                                                    "args_list": [
+                                                        ">"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        [
+                                                            "INTEGER", 
+                                                            "最晚结束时间", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "condition_type": "FLOAT_COMPARE", 
+                                            "element_id": 730247211000009, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "UNREG_TRIGGER", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100178, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CURRENT_DYNAMIC_TRIGGER_INSTANCE"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 730247211000010, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 730247211000011, 
+                            "enable": true, 
+                            "fake_op": []
+                        }, 
+                        {
+                            "action_type": "TRAVERSE_TABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        [
+                                            "TABLE", 
+                                            "刷怪表", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_NAME", 
+                                                                "怪物类型", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100116, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100011, 
+                                                            "args_list": [
+                                                                [
+                                                                    "TABLE", 
+                                                                    "刷怪表", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [], 
+                                                            "sub_type": "ITER_TABLE_KEY_STR"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "怪物类型"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_UNIT_NAME_TABLE_VAR_ND"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 730247211000012, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "开始时间", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100011, 
+                                                            "args_list": [
+                                                                [
+                                                                    "TABLE", 
+                                                                    "刷怪表", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [], 
+                                                            "sub_type": "ITER_TABLE_KEY_STR"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "开始时间"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 730247211000013, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "结束时间", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100011, 
+                                                            "args_list": [
+                                                                [
+                                                                    "TABLE", 
+                                                                    "刷怪表", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [], 
+                                                            "sub_type": "ITER_TABLE_KEY_STR"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "结束时间"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 730247211000014, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "SET_VARIABLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100030, 
+                                                    "args_list": [
+                                                        [
+                                                            "INTEGER", 
+                                                            "每秒刷怪数", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100011, 
+                                                            "args_list": [
+                                                                [
+                                                                    "TABLE", 
+                                                                    "刷怪表", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [], 
+                                                            "sub_type": "ITER_TABLE_KEY_STR"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "每秒刷怪数"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 730247211000015, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "IF_THEN_ELSE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100021, 
+                                                    "args_list": [
+                                                        {
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "FLOAT", 
+                                                                            "生成器经过时间", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 2
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100015, 
+                                                                    "args_list": [
+                                                                        ">="
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "开始时间", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "condition_type": "FLOAT_COMPARE", 
+                                                            "element_id": 730247211000016, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100000, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "FLOAT", 
+                                                                            "生成器经过时间", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 2
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100015, 
+                                                                    "args_list": [
+                                                                        "<"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "结束时间", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "condition_type": "FLOAT_COMPARE", 
+                                                            "element_id": 730247211000017, 
+                                                            "enable": true
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100022, 
+                                                    "args_list": [
+                                                        {
+                                                            "action_type": "SET_VARIABLE", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100030, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "剩余怪物数量", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        [
+                                                                            "INTEGER", 
+                                                                            "每秒刷怪数", 
+                                                                            "local"
+                                                                        ]
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 730247211000018, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "SET_VARIABLE", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "每帧生成怪物数量", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100002, 
+                                                                                    "args_list": [
+                                                                                        [
+                                                                                            "INTEGER", 
+                                                                                            "每秒刷怪数", 
+                                                                                            "local"
+                                                                                        ]
+                                                                                    ], 
+                                                                                    "sub_type": 6
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100016, 
+                                                                                    "args_list": [
+                                                                                        "/"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100002, 
+                                                                                    "args_list": [
+                                                                                        30
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }
+                                                                            ], 
+                                                                            "sub_type": "MATH_OPERATION"
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                1
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "MAX_INT"
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 730247211000019, 
+                                                            "enable": true
+                                                        }, 
+                                                        {
+                                                            "action_type": "FOR_INT_DO_ACTION", 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "INTEGER", 
+                                                                                "i", 
+                                                                                "local"
+                                                                            ]
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 6
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        30
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100022, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "action_type": "RUN_ONCE_TIMER_BY_FRAME_NO_SAVE", 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100002, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "INTEGER", 
+                                                                                                "i", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 6
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100022, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "action_type": "FOR_INT_DO_ACTION", 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "__tuple__": true, 
+                                                                                                            "items": [
+                                                                                                                "INTEGER", 
+                                                                                                                "j", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": 6
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        1
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "arg_type": 100002, 
+                                                                                                            "args_list": [
+                                                                                                                {
+                                                                                                                    "__tuple__": true, 
+                                                                                                                    "items": [
+                                                                                                                        "INTEGER", 
+                                                                                                                        "每帧生成怪物数量", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ], 
+                                                                                                            "sub_type": 6
+                                                                                                        }, 
+                                                                                                        {
+                                                                                                            "arg_type": 100002, 
+                                                                                                            "args_list": [
+                                                                                                                {
+                                                                                                                    "__tuple__": true, 
+                                                                                                                    "items": [
+                                                                                                                        "INTEGER", 
+                                                                                                                        "剩余怪物数量", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ], 
+                                                                                                            "sub_type": 6
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": "MIN_INT"
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100022, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "action_type": "SET_VARIABLE", 
+                                                                                                            "args_list": [
+                                                                                                                {
+                                                                                                                    "arg_type": 100030, 
+                                                                                                                    "args_list": [
+                                                                                                                        {
+                                                                                                                            "__tuple__": true, 
+                                                                                                                            "items": [
+                                                                                                                                "POINT", 
+                                                                                                                                "point", 
+                                                                                                                                "local"
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ], 
+                                                                                                                    "sub_type": 1
+                                                                                                                }, 
+                                                                                                                {
+                                                                                                                    "arg_type": 100004, 
+                                                                                                                    "args_list": [
+                                                                                                                        {
+                                                                                                                            "arg_type": 100004, 
+                                                                                                                            "args_list": [
+                                                                                                                                [
+                                                                                                                                    "POINT", 
+                                                                                                                                    "中心点", 
+                                                                                                                                    "local"
+                                                                                                                                ]
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 19
+                                                                                                                        }, 
+                                                                                                                        {
+                                                                                                                            "arg_type": 100000, 
+                                                                                                                            "args_list": [
+                                                                                                                                [
+                                                                                                                                    "FLOAT", 
+                                                                                                                                    "最大半径", 
+                                                                                                                                    "local"
+                                                                                                                                ]
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 2
+                                                                                                                        }, 
+                                                                                                                        {
+                                                                                                                            "arg_type": 100000, 
+                                                                                                                            "args_list": [
+                                                                                                                                {
+                                                                                                                                    "arg_type": 100000, 
+                                                                                                                                    "args_list": [
+                                                                                                                                        [
+                                                                                                                                            "FLOAT", 
+                                                                                                                                            "最大半径", 
+                                                                                                                                            "local"
+                                                                                                                                        ]
+                                                                                                                                    ], 
+                                                                                                                                    "sub_type": 2
+                                                                                                                                }, 
+                                                                                                                                {
+                                                                                                                                    "arg_type": 100017, 
+                                                                                                                                    "args_list": [
+                                                                                                                                        "+"
+                                                                                                                                    ], 
+                                                                                                                                    "sub_type": 1
+                                                                                                                                }, 
+                                                                                                                                {
+                                                                                                                                    "arg_type": 100000, 
+                                                                                                                                    "args_list": [
+                                                                                                                                        200.0
+                                                                                                                                    ], 
+                                                                                                                                    "sub_type": 1
+                                                                                                                                }
+                                                                                                                            ], 
+                                                                                                                            "sub_type": "ARITHMETIC_OPERATION"
+                                                                                                                        }
+                                                                                                                    ], 
+                                                                                                                    "call_rt_index": 0, 
+                                                                                                                    "op_arg": [], 
+                                                                                                                    "op_arg_enable": [], 
+                                                                                                                    "sub_type": "bb70121e795111ee85d630d042e90e85"
+                                                                                                                }
+                                                                                                            ], 
+                                                                                                            "bp": false, 
+                                                                                                            "element_id": 730247211000020, 
+                                                                                                            "enable": true
+                                                                                                        }, 
+                                                                                                        {
+                                                                                                            "action_type": "SET_VARIABLE", 
+                                                                                                            "args_list": [
+                                                                                                                {
+                                                                                                                    "arg_type": 100006, 
+                                                                                                                    "args_list": [
+                                                                                                                        {
+                                                                                                                            "__tuple__": true, 
+                                                                                                                            "items": [
+                                                                                                                                "UNIT_ENTITY", 
+                                                                                                                                "怪物单位", 
+                                                                                                                                "local"
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ], 
+                                                                                                                    "sub_type": 11
+                                                                                                                }, 
+                                                                                                                {
+                                                                                                                    "arg_type": 100006, 
+                                                                                                                    "args_list": [
+                                                                                                                        {
+                                                                                                                            "arg_type": 100116, 
+                                                                                                                            "args_list": [
+                                                                                                                                {
+                                                                                                                                    "__tuple__": true, 
+                                                                                                                                    "items": [
+                                                                                                                                        "UNIT_NAME", 
+                                                                                                                                        "怪物类型", 
+                                                                                                                                        "local"
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 2
+                                                                                                                        }, 
+                                                                                                                        {
+                                                                                                                            "arg_type": 100004, 
+                                                                                                                            "args_list": [
+                                                                                                                                {
+                                                                                                                                    "__tuple__": true, 
+                                                                                                                                    "items": [
+                                                                                                                                        "POINT", 
+                                                                                                                                        "point", 
+                                                                                                                                        "local"
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 19
+                                                                                                                        }, 
+                                                                                                                        {
+                                                                                                                            "arg_type": 100225, 
+                                                                                                                            "args_list": [
+                                                                                                                                {
+                                                                                                                                    "arg_type": 100000, 
+                                                                                                                                    "args_list": [
+                                                                                                                                        0.0
+                                                                                                                                    ], 
+                                                                                                                                    "sub_type": 1
+                                                                                                                                }
+                                                                                                                            ], 
+                                                                                                                            "sub_type": "GET_ANGLE_BY_FLOAT"
+                                                                                                                        }, 
+                                                                                                                        {
+                                                                                                                            "arg_type": 100025, 
+                                                                                                                            "args_list": [
+                                                                                                                                31
+                                                                                                                            ], 
+                                                                                                                            "sub_type": 1
+                                                                                                                        }
+                                                                                                                    ], 
+                                                                                                                    "op_arg": [
+                                                                                                                        null
+                                                                                                                    ], 
+                                                                                                                    "op_arg_enable": [
+                                                                                                                        false
+                                                                                                                    ], 
+                                                                                                                    "sub_type": "CREATE_UNIT"
+                                                                                                                }
+                                                                                                            ], 
+                                                                                                            "bp": false, 
+                                                                                                            "element_id": 730247211000021, 
+                                                                                                            "enable": true
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }
+                                                                                            ], 
+                                                                                            "bp": false, 
+                                                                                            "element_id": 730247211000022, 
+                                                                                            "enable": true
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }
+                                                                            ], 
+                                                                            "bp": false, 
+                                                                            "element_id": 730247211000023, 
+                                                                            "enable": true, 
+                                                                            "local_var": {
+                                                                                "__tuple__": true, 
+                                                                                "items": [
+                                                                                    {}, 
+                                                                                    {}
+                                                                                ]
+                                                                            }
+                                                                        }, 
+                                                                        {
+                                                                            "action_type": "SET_VARIABLE", 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100030, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "__tuple__": true, 
+                                                                                            "items": [
+                                                                                                "INTEGER", 
+                                                                                                "剩余怪物数量", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100002, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100002, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "__tuple__": true, 
+                                                                                                    "items": [
+                                                                                                        "INTEGER", 
+                                                                                                        "剩余怪物数量", 
+                                                                                                        "local"
+                                                                                                    ]
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": 6
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100016, 
+                                                                                            "args_list": [
+                                                                                                "-"
+                                                                                            ], 
+                                                                                            "sub_type": 1
+                                                                                        }, 
+                                                                                        {
+                                                                                            "arg_type": 100002, 
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "__tuple__": true, 
+                                                                                                            "items": [
+                                                                                                                "INTEGER", 
+                                                                                                                "每帧生成怪物数量", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": 6
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "__tuple__": true, 
+                                                                                                            "items": [
+                                                                                                                "INTEGER", 
+                                                                                                                "剩余怪物数量", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": 6
+                                                                                                }
+                                                                                            ], 
+                                                                                            "sub_type": "MIN_INT"
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "MATH_OPERATION"
+                                                                                }
+                                                                            ], 
+                                                                            "bp": false, 
+                                                                            "element_id": 730247211000024, 
+                                                                            "enable": true
+                                                                        }, 
+                                                                        {
+                                                                            "action_type": "IF_THEN_ELSE", 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100021, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "args_list": [
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        {
+                                                                                                            "__tuple__": true, 
+                                                                                                            "items": [
+                                                                                                                "INTEGER", 
+                                                                                                                "剩余怪物数量", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ], 
+                                                                                                    "sub_type": 6
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100015, 
+                                                                                                    "args_list": [
+                                                                                                        "<="
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }, 
+                                                                                                {
+                                                                                                    "arg_type": 100002, 
+                                                                                                    "args_list": [
+                                                                                                        0
+                                                                                                    ], 
+                                                                                                    "sub_type": 1
+                                                                                                }
+                                                                                            ], 
+                                                                                            "condition_type": "FLOAT_COMPARE", 
+                                                                                            "element_id": 730247211000025, 
+                                                                                            "enable": true
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100022, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "action_type": "BREAK_LOOP", 
+                                                                                            "args_list": [], 
+                                                                                            "bp": false, 
+                                                                                            "element_id": 730247211000026, 
+                                                                                            "enable": true
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100022, 
+                                                                                    "args_list": [], 
+                                                                                    "sub_type": 1
+                                                                                }
+                                                                            ], 
+                                                                            "bp": false, 
+                                                                            "element_id": 730247211000027, 
+                                                                            "enable": true, 
+                                                                            "fake_op": []
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
+                                                            ], 
+                                                            "bp": false, 
+                                                            "element_id": 730247211000028, 
+                                                            "enable": true
+                                                        }
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100022, 
+                                                    "args_list": [], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 730247211000029, 
+                                            "enable": true, 
+                                            "fake_op": []
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 730247211000030, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 730247211000031, 
+            "enable": true, 
+            "local_var": {
+                "__tuple__": true, 
+                "items": [
+                    {}, 
+                    {}
+                ]
+            }
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "根据表格{刷怪表}在屏幕外批量生成怪物", 
+    "func_id": "7cd62992c74111ef85a9ebc319de8560", 
+    "func_name": "幸存者_根据表格在屏幕外批量生成怪物_备份", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "刷怪表", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "UKztrMZ8Ee+MIevDGd6FYD", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 730247211, 
+    "trigger_name": "幸存者_根据表格在屏幕外批量生成怪物_备份", 
+    "valid": true, 
+    "var_data": [
+        {
+            "DYNAMIC_TRIGGER_INSTANCE": {
+                "刷怪触发器": 0
+            }, 
+            "FLOAT": {
+                "最大半径": 0.0, 
+                "生成器经过时间": 0.0
+            }, 
+            "INTEGER": {
+                "i": 0, 
+                "j": 0, 
+                "temp": 0, 
+                "剩余怪物数量": 0, 
+                "开始时间": 0, 
+                "最晚结束时间": 0, 
+                "每帧生成怪物数量": 0, 
+                "每秒刷怪数": 0, 
+                "结束时间": 0
+            }, 
+            "NEW_TIMER": {}, 
+            "POINT": {
+                "point": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }, 
+                "中心点": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "TABLE": {
+                "刷怪表": null
+            }, 
+            "UNIT_ENTITY": {
+                "临时单位": 0, 
+                "怪物单位": 0
+            }, 
+            "UNIT_NAME": {
+                "怪物类型": 0
+            }
+        }, 
+        {
+            "i": 0, 
+            "j": 0, 
+            "point": 0, 
+            "temp": 0, 
+            "中心点": 0, 
+            "临时单位": 0, 
+            "刷怪表": 0, 
+            "刷怪触发器": 0, 
+            "剩余怪物数量": 0, 
+            "开始时间": 0, 
+            "怪物单位": 0, 
+            "怪物类型": 0, 
+            "最大半径": 0, 
+            "最晚结束时间": 0, 
+            "每帧生成怪物数量": 0, 
+            "每秒刷怪数": 0, 
+            "生成器经过时间": 0, 
+            "结束时间": 0
+        }, 
+        [
+            "temp", 
+            "刷怪表", 
+            "刷怪触发器", 
+            "最晚结束时间", 
+            "中心点", 
+            "最大半径", 
+            "生成器经过时间", 
+            "临时单位", 
+            "怪物单位", 
+            "i", 
+            "结束时间", 
+            "开始时间", 
+            "剩余怪物数量", 
+            "j", 
+            "怪物类型", 
+            "每秒刷怪数", 
+            "point", 
+            "每帧生成怪物数量"
+        ]
+    ]
+}

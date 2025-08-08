@@ -1,0 +1,52 @@
+{
+    "1": {
+        "anim_name": "\u65b0\u5efa\u65f6\u95f4\u8f74", 
+        "dt": [], 
+        "event_data": {}, 
+        "f_rt": 30, 
+        "group": "panel_2", 
+        "lp": false, 
+        "max_frame": 100, 
+        "play_mode": 0
+    }, 
+    "2": {
+        "anim_name": "\u65b0\u5efa\u65f6\u95f4\u8f74_1", 
+        "dt": [], 
+        "event_data": {}, 
+        "f_rt": 30, 
+        "group": "panel_2", 
+        "lp": false, 
+        "max_frame": 100, 
+        "play_mode": 0
+    }, 
+    "3": {
+        "anim_name": "\u65b0\u5efa\u65f6\u95f4\u8f74_2", 
+        "dt": [], 
+        "event_data": {
+            "0": {
+                "event_id": null, 
+                "frame_id": 0
+            }
+        }, 
+        "f_rt": 30, 
+        "group": "panel_2", 
+        "lp": false, 
+        "max_frame": 100, 
+        "play_mode": 0
+    }, 
+    "4": {
+        "anim_name": "\u65b0\u5efa\u65f6\u95f4\u8f74_2_copy", 
+        "dt": [], 
+        "event_data": {
+            "0": {
+                "event_id": null, 
+                "frame_id": 0
+            }
+        }, 
+        "f_rt": 30, 
+        "group": "panel_2", 
+        "lp": false, 
+        "max_frame": 100, 
+        "play_mode": 0
+    }
+}

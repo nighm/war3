@@ -1,0 +1,22 @@
+{
+    "eca_lines": [
+        820, 
+        15392
+    ], 
+    "lua_script_preset": "y3", 
+    "object_template_preset": "default", 
+    "plugin_name_index": {
+        "7434817e-6e9d-4e00-b16e-828482fc439e": [
+            "xfUHRYetEe+UFlcCQ6y3Fc", 
+            "xfUHRoetEe++4lcCQ6y3Fa", 
+            "xfUHR4etEe+ryVcCQ6y3FW", 
+            "xfUHSIetEe+pvVcCQ6y3FS"
+        ], 
+        "ddcb11a4-3404-4f0c-bbc0-1b55eb6c5790": [
+            "L+MTw4eaEe+LDgky1yjQPe", 
+            "L+MTxIeaEe+QlQky1yjQPQ", 
+            "L+MTxYeaEe+Wggky1yjQPU", 
+            "L+MTxoeaEe+YXAky1yjQPR"
+        ]
+    }
+}

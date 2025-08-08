@@ -1,0 +1,226 @@
+{
+    "ui/134219387": {
+        "default_editor_id": 134219387, 
+        "describe": "", 
+        "key": "ui/134219387", 
+        "name": "1273", 
+        "path": "ui/134219387", 
+        "uid": "res_icon_ui/134219387"
+    }, 
+    "ui/134220633": {
+        "default_editor_id": 134220633, 
+        "describe": "", 
+        "key": "ui/134220633", 
+        "name": "gui_bbs_playerinfo_head_normal_nor", 
+        "path": "ui/134220633", 
+        "uid": "res_icon_ui/134220633"
+    }, 
+    "ui/134220880": {
+        "default_editor_id": 134220880, 
+        "describe": "", 
+        "key": "ui/134220880", 
+        "name": "frame_700w_1", 
+        "path": "ui/134220880", 
+        "uid": "res_icon_ui/134220880"
+    }, 
+    "ui/134223436": {
+        "default_editor_id": 134223436, 
+        "describe": "", 
+        "key": "ui/134223436", 
+        "name": "gui_frame_hero_blue", 
+        "path": "ui/134223436", 
+        "uid": "res_icon_ui/134223436"
+    }, 
+    "ui/134227318": {
+        "default_editor_id": 134227318, 
+        "describe": "", 
+        "key": "ui/134227318", 
+        "name": "1102", 
+        "path": "ui/134227318", 
+        "uid": "res_icon_ui/134227318"
+    }, 
+    "ui/134232150": {
+        "default_editor_id": 134232150, 
+        "describe": "", 
+        "key": "ui/134232150", 
+        "name": "1184", 
+        "path": "ui/134232150", 
+        "uid": "res_icon_ui/134232150"
+    }, 
+    "ui/134232600": {
+        "default_editor_id": 134232600, 
+        "describe": "", 
+        "key": "ui/134232600", 
+        "name": "5 (3)", 
+        "path": "ui/134232600", 
+        "uid": "res_icon_ui/134232600"
+    }, 
+    "ui/134235194": {
+        "default_editor_id": 134235194, 
+        "describe": "", 
+        "key": "ui/134235194", 
+        "name": "medal_sp_33", 
+        "path": "ui/134235194", 
+        "uid": "res_icon_ui/134235194"
+    }, 
+    "ui/134236079": {
+        "default_editor_id": 134236079, 
+        "describe": "", 
+        "key": "ui/134236079", 
+        "name": "gui_frame_hero_purple", 
+        "path": "ui/134236079", 
+        "uid": "res_icon_ui/134236079"
+    }, 
+    "ui/134236775": {
+        "default_editor_id": 134236775, 
+        "describe": "", 
+        "key": "ui/134236775", 
+        "name": "gui_img_hero_waikuang_xuanzhong_white", 
+        "path": "ui/134236775", 
+        "uid": "res_icon_ui/134236775"
+    }, 
+    "ui/134236849": {
+        "default_editor_id": 134236849, 
+        "describe": "", 
+        "key": "ui/134236849", 
+        "name": "1036", 
+        "path": "ui/134236849", 
+        "uid": "res_icon_ui/134236849"
+    }, 
+    "ui/134239356": {
+        "default_editor_id": 134239356, 
+        "describe": "", 
+        "key": "ui/134239356", 
+        "name": "gui_frame_hero_orange", 
+        "path": "ui/134239356", 
+        "uid": "res_icon_ui/134239356"
+    }, 
+    "ui/134239465": {
+        "default_editor_id": 134239465, 
+        "describe": "", 
+        "key": "ui/134239465", 
+        "name": "ready_btn_dow", 
+        "path": "ui/134239465", 
+        "uid": "res_icon_ui/134239465"
+    }, 
+    "ui/134239675": {
+        "default_editor_id": 134239675, 
+        "describe": "", 
+        "key": "ui/134239675", 
+        "name": "1124", 
+        "path": "ui/134239675", 
+        "uid": "res_icon_ui/134239675"
+    }, 
+    "ui/134239941": {
+        "default_editor_id": 134239941, 
+        "describe": "", 
+        "key": "ui/134239941", 
+        "name": "10125", 
+        "path": "ui/134239941", 
+        "uid": "res_icon_ui/134239941"
+    }, 
+    "ui/134240342": {
+        "default_editor_id": 134240342, 
+        "describe": "", 
+        "key": "ui/134240342", 
+        "name": "4 (3)", 
+        "path": "ui/134240342", 
+        "uid": "res_icon_ui/134240342"
+    }, 
+    "ui/134242500": {
+        "default_editor_id": 134242500, 
+        "describe": "", 
+        "key": "ui/134242500", 
+        "name": "3 (3)", 
+        "path": "ui/134242500", 
+        "uid": "res_icon_ui/134242500"
+    }, 
+    "ui/134244205": {
+        "default_editor_id": 134244205, 
+        "describe": "", 
+        "key": "ui/134244205", 
+        "name": "gui_frame_hero_green", 
+        "path": "ui/134244205", 
+        "uid": "res_icon_ui/134244205"
+    }, 
+    "ui/134245942": {
+        "default_editor_id": 134245942, 
+        "describe": "", 
+        "key": "ui/134245942", 
+        "name": "10014", 
+        "path": "ui/134245942", 
+        "uid": "res_icon_ui/134245942"
+    }, 
+    "ui/134250367": {
+        "default_editor_id": 134250367, 
+        "describe": "", 
+        "key": "ui/134250367", 
+        "name": "10054", 
+        "path": "ui/134250367", 
+        "uid": "res_icon_ui/134250367"
+    }, 
+    "ui/134250640": {
+        "default_editor_id": 134250640, 
+        "describe": "", 
+        "key": "ui/134250640", 
+        "name": "1 (2)", 
+        "path": "ui/134250640", 
+        "uid": "res_icon_ui/134250640"
+    }, 
+    "ui/134252927": {
+        "default_editor_id": 134252927, 
+        "describe": "", 
+        "key": "ui/134252927", 
+        "name": "2 (2)", 
+        "path": "ui/134252927", 
+        "uid": "res_icon_ui/134252927"
+    }, 
+    "ui/134257622": {
+        "default_editor_id": 134257622, 
+        "describe": "", 
+        "key": "ui/134257622", 
+        "name": "10040", 
+        "path": "ui/134257622", 
+        "uid": "res_icon_ui/134257622"
+    }, 
+    "ui/134261924": {
+        "default_editor_id": 134261924, 
+        "describe": "", 
+        "key": "ui/134261924", 
+        "name": "1405", 
+        "path": "ui/134261924", 
+        "uid": "res_icon_ui/134261924"
+    }, 
+    "ui/134275829": {
+        "default_editor_id": 134275829, 
+        "describe": "", 
+        "key": "ui/134275829", 
+        "name": "gui_btn_ranse_open_gry", 
+        "path": "ui/134275829", 
+        "uid": "res_icon_ui/134275829"
+    }, 
+    "ui/134277150": {
+        "default_editor_id": 134277150, 
+        "describe": "", 
+        "key": "ui/134277150", 
+        "name": "5235", 
+        "path": "ui/134277150", 
+        "uid": "res_icon_ui/134277150"
+    }, 
+    "ui/134278403": {
+        "default_editor_id": 134278403, 
+        "describe": "", 
+        "key": "ui/134278403", 
+        "name": "gui_frame_hero_red", 
+        "path": "ui/134278403", 
+        "uid": "res_icon_ui/134278403"
+    }, 
+    "ui/134278782": {
+        "default_editor_id": 134278782, 
+        "describe": "", 
+        "key": "ui/134278782", 
+        "name": "1406", 
+        "path": "ui/134278782", 
+        "uid": "res_icon_ui/134278782"
+    }
+}

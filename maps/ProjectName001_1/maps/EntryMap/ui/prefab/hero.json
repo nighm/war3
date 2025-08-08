@@ -1,0 +1,747 @@
+{
+    "data": {
+        "adapter_option": [
+            false, 
+            false, 
+            false, 
+            false, 
+            0, 
+            0, 
+            0, 
+            0
+        ], 
+        "anchor": [
+            0.5, 
+            0.5
+        ], 
+        "can_drag": false, 
+        "cap_insets": [
+            -1, 
+            -1, 
+            0, 
+            0
+        ], 
+        "children": [
+            {
+                "adapter_option": [
+                    true, 
+                    true, 
+                    true, 
+                    true, 
+                    0.0, 
+                    0.0, 
+                    0.0, 
+                    0.0
+                ], 
+                "anchor": [
+                    0.5, 
+                    0.5
+                ], 
+                "btn_status": "normal", 
+                "can_drag": false, 
+                "children": [
+                    {
+                        "adapter_option": [
+                            true, 
+                            false, 
+                            true, 
+                            false, 
+                            -0.00007360839843784106, 
+                            45.14292639160156, 
+                            0.00006041259765687812, 
+                            42.28566041259766
+                        ], 
+                        "alignment": {
+                            "__tuple__": true, 
+                            "items": [
+                                1, 
+                                8
+                            ]
+                        }, 
+                        "anchor": [
+                            0.5, 
+                            0.5
+                        ], 
+                        "bold": false, 
+                        "border": false, 
+                        "can_drag": false, 
+                        "children": [], 
+                        "comp_type": "TextLabel", 
+                        "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "MSYH", 
+                                16
+                            ]
+                        }, 
+                        "font_color": [
+                            187, 
+                            208, 
+                            233, 
+                            255
+                        ], 
+                        "font_min_size": 15, 
+                        "hover_child": "", 
+                        "italics": false, 
+                        "label_effect": {
+                            "__tuple__": true, 
+                            "items": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false
+                            ]
+                        }, 
+                        "line_space": {
+                            "__tuple__": true, 
+                            "items": [
+                                0, 
+                                0
+                            ]
+                        }, 
+                        "name": "hot_key", 
+                        "opacity": 1.0, 
+                        "open_adapter": true, 
+                        "over_pattern": false, 
+                        "pos_data": {
+                            "__tuple__": true, 
+                            "items": [
+                                10.8572, 
+                                54.5715, 
+                                16.9643, 
+                                85.2679, 
+                                1, 
+                                1
+                            ]
+                        }, 
+                        "prefab_sub_key": "e6fcdee0-8ea8-43e1-9fd5-70658d441b2a", 
+                        "review_word": false, 
+                        "rotation": 0, 
+                        "scale": [
+                            1, 
+                            1
+                        ], 
+                        "scene_ui_name": null, 
+                        "shadow": false, 
+                        "size": [
+                            21.714279174804688, 
+                            18.857147216796875
+                        ], 
+                        "strike_through": false, 
+                        "strike_through_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                0, 
+                                0, 
+                                0, 
+                                255
+                            ]
+                        }, 
+                        "strike_through_size": 0, 
+                        "swallow_touches": false, 
+                        "text": {
+                            "__tuple__": true, 
+                            "items": [
+                                "F1", 
+                                false
+                            ]
+                        }, 
+                        "text_bind": [
+                            null, 
+                            null
+                        ], 
+                        "text_border_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                0, 
+                                0, 
+                                0, 
+                                255
+                            ]
+                        }, 
+                        "text_border_width": 0, 
+                        "text_format": "", 
+                        "text_italic_radius": 0.5, 
+                        "text_shadow_color": [
+                            123, 
+                            123, 
+                            123, 
+                            255
+                        ], 
+                        "text_shadow_offset": [
+                            0, 
+                            0
+                        ], 
+                        "type": 3, 
+                        "typewriter_effect": 0, 
+                        "typewriter_space": 0, 
+                        "under_line": false, 
+                        "visible": true
+                    }, 
+                    {
+                        "adapter_option": [
+                            true, 
+                            true, 
+                            true, 
+                            true, 
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ], 
+                        "anchor": [
+                            0.5, 
+                            0.5
+                        ], 
+                        "can_drag": false, 
+                        "cap_insets": [
+                            -1, 
+                            -1, 
+                            0, 
+                            0
+                        ], 
+                        "children": [], 
+                        "color": [
+                            255, 
+                            255, 
+                            255, 
+                            255
+                        ], 
+                        "comp_type": "Image", 
+                        "event_list": [], 
+                        "hover_child": "", 
+                        "image": 133819, 
+                        "is_scale9_enable": false, 
+                        "name": "dead", 
+                        "opacity": 1.0, 
+                        "open_adapter": true, 
+                        "pos_data": {
+                            "__tuple__": true, 
+                            "items": [
+                                32.0, 
+                                32.0, 
+                                50.0, 
+                                50.0, 
+                                1, 
+                                1
+                            ]
+                        }, 
+                        "prefab_sub_key": "dba5091e-5a71-4e2b-81af-8d5c8ab59973", 
+                        "rotation": 0, 
+                        "scale": [
+                            1, 
+                            1
+                        ], 
+                        "scene_ui_name": null, 
+                        "size": [
+                            64.0, 
+                            64.0
+                        ], 
+                        "size_adaptive": false, 
+                        "swallow_touches": false, 
+                        "type": 4, 
+                        "visible": true
+                    }
+                ], 
+                "comp_type": "Button", 
+                "disabled_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "disabled_font_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "disabled_picture": 106391, 
+                "disabled_status": {
+                    "disabled_color": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            255, 
+                            255, 
+                            255, 
+                            255
+                        ], 
+                        "name": "code_Disable_color", 
+                        "show_alpha": false, 
+                        "type": 13
+                    }, 
+                    "disabled_font_color": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            255, 
+                            255, 
+                            255, 
+                            255
+                        ], 
+                        "name": "code_button_Disable_text_color", 
+                        "show_alpha": false, 
+                        "type": 13
+                    }, 
+                    "disabled_picture": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": 106391, 
+                        "name": "code_button_Disable_button_image", 
+                        "table_name": "editor_icon", 
+                        "type": 12
+                    }, 
+                    "disabled_status": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": "disabled", 
+                        "name": "code_btn_status_disabled", 
+                        "type": 45
+                    }, 
+                    "disabled_text": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            "", 
+                            false
+                        ], 
+                        "name": "code_button_Disable_text", 
+                        "type": 30
+                    }
+                }, 
+                "disabled_status_added": false, 
+                "disabled_text": {
+                    "__tuple__": true, 
+                    "items": [
+                        "", 
+                        false
+                    ]
+                }, 
+                "event_list": [], 
+                "font": {
+                    "__tuple__": true, 
+                    "items": [
+                        "MSYH", 
+                        24
+                    ]
+                }, 
+                "hover_child": "", 
+                "hover_status": {
+                    "hover_status": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": "hover", 
+                        "name": "code_btn_status_hover", 
+                        "type": 45
+                    }, 
+                    "suspend_color": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            255, 
+                            255, 
+                            255, 
+                            255
+                        ], 
+                        "name": "code_Hover_color", 
+                        "show_alpha": false, 
+                        "type": 13
+                    }, 
+                    "suspend_font_color": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            255, 
+                            255, 
+                            255, 
+                            255
+                        ], 
+                        "name": "code_button_Hover_text_native", 
+                        "show_alpha": false, 
+                        "type": 13
+                    }, 
+                    "suspend_picture": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": 106388, 
+                        "name": "code_button_Hover_button_image", 
+                        "table_name": "editor_icon", 
+                        "type": 12
+                    }, 
+                    "suspend_text": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            "", 
+                            false
+                        ], 
+                        "name": "code_button_Hover_text", 
+                        "type": 30
+                    }
+                }, 
+                "hover_status_added": false, 
+                "name": "btn", 
+                "normal_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "normal_font_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "normal_picture": 108536, 
+                "normal_text": {
+                    "__tuple__": true, 
+                    "items": [
+                        "", 
+                        false
+                    ]
+                }, 
+                "opacity": 1.0, 
+                "open_adapter": true, 
+                "pos_data": {
+                    "__tuple__": true, 
+                    "items": [
+                        32.0, 
+                        32.0, 
+                        50.0, 
+                        50.0, 
+                        1, 
+                        1
+                    ]
+                }, 
+                "prefab_sub_key": "9e9528d5-557c-4e90-a061-e73d2e010c59", 
+                "press_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "press_font_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "press_picture": 106390, 
+                "press_text": {
+                    "__tuple__": true, 
+                    "items": [
+                        "", 
+                        false
+                    ]
+                }, 
+                "pressed_status": {
+                    "press_color": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            255, 
+                            255, 
+                            255, 
+                            255
+                        ], 
+                        "name": "code_Press_color", 
+                        "show_alpha": false, 
+                        "type": 13
+                    }, 
+                    "press_font_color": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            255, 
+                            255, 
+                            255, 
+                            255
+                        ], 
+                        "name": "code_button_Press_to_text", 
+                        "show_alpha": false, 
+                        "type": 13
+                    }, 
+                    "press_picture": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": 106390, 
+                        "name": "code_button_Press_button_image", 
+                        "table_name": "editor_icon", 
+                        "type": 12
+                    }, 
+                    "press_text": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": [
+                            "", 
+                            false
+                        ], 
+                        "name": "code_button_Press_text", 
+                        "type": 30
+                    }, 
+                    "pressed_status": {
+                        "category": "UI_BTN_STATUS", 
+                        "default": "pressed", 
+                        "name": "code_btn_status_pressed", 
+                        "type": 45
+                    }
+                }, 
+                "pressed_status_added": false, 
+                "rotation": 0, 
+                "scale": [
+                    1, 
+                    1
+                ], 
+                "scene_ui_name": null, 
+                "short_cut": 0, 
+                "short_cut_2": 0, 
+                "size": [
+                    64.0, 
+                    64.0
+                ], 
+                "suspend_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "suspend_font_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "suspend_picture": 106388, 
+                "suspend_text": {
+                    "__tuple__": true, 
+                    "items": [
+                        "", 
+                        false
+                    ]
+                }, 
+                "swallow_touches": false, 
+                "touch_scale": [
+                    1.0, 
+                    1.0
+                ], 
+                "type": 1, 
+                "visible": true
+            }, 
+            {
+                "adapter_option": [
+                    false, 
+                    true, 
+                    true, 
+                    true, 
+                    64.0, 
+                    -6.0, 
+                    0.0, 
+                    0.0
+                ], 
+                "anchor": [
+                    0.5, 
+                    0.5
+                ], 
+                "background_cap_insets": [
+                    -1, 
+                    -1, 
+                    0, 
+                    0
+                ], 
+                "bg_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "bg_image": 133829, 
+                "can_drag": false, 
+                "cap_insets": [
+                    -1, 
+                    -1, 
+                    0, 
+                    0
+                ], 
+                "children": [], 
+                "color": [
+                    120, 
+                    120, 
+                    120, 
+                    255
+                ], 
+                "comp_type": "Progress", 
+                "current_value": 50.0, 
+                "current_value_bind": [
+                    null, 
+                    null
+                ], 
+                "current_value_format": "", 
+                "event_list": [], 
+                "hover_child": "", 
+                "image": 133828, 
+                "is_scale9_enable": false, 
+                "max_value": 100.0, 
+                "max_value_bind": [
+                    null, 
+                    null
+                ], 
+                "max_value_format": "", 
+                "name": "hp", 
+                "opacity": 1.0, 
+                "open_adapter": true, 
+                "pos_data": {
+                    "__tuple__": true, 
+                    "items": [
+                        32.0, 
+                        -3.0, 
+                        50.0, 
+                        -4.6875, 
+                        1, 
+                        1
+                    ]
+                }, 
+                "prefab_sub_key": "7affc0fd-7b03-427b-8bcb-330c4322f0b5", 
+                "progress_type": 1, 
+                "reverse": false, 
+                "rotation": 0, 
+                "scale": [
+                    1, 
+                    1
+                ], 
+                "scene_ui_name": null, 
+                "size": [
+                    64.0, 
+                    6.0
+                ], 
+                "swallow_touches": false, 
+                "type": 5, 
+                "visible": true
+            }, 
+            {
+                "adapter_option": [
+                    false, 
+                    true, 
+                    true, 
+                    true, 
+                    70.0, 
+                    -12.0, 
+                    0.0, 
+                    0.0
+                ], 
+                "anchor": [
+                    0.5, 
+                    0.5
+                ], 
+                "background_cap_insets": [
+                    -1, 
+                    -1, 
+                    0, 
+                    0
+                ], 
+                "bg_color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "bg_image": 133829, 
+                "can_drag": false, 
+                "cap_insets": [
+                    -1, 
+                    -1, 
+                    0, 
+                    0
+                ], 
+                "children": [], 
+                "color": [
+                    120, 
+                    120, 
+                    120, 
+                    255
+                ], 
+                "comp_type": "Progress", 
+                "current_value": 50.0, 
+                "current_value_bind": [
+                    null, 
+                    null
+                ], 
+                "current_value_format": "", 
+                "event_list": [], 
+                "hover_child": "", 
+                "image": 133830, 
+                "is_scale9_enable": false, 
+                "max_value": 100.0, 
+                "max_value_bind": [
+                    null, 
+                    null
+                ], 
+                "max_value_format": "", 
+                "name": "mp", 
+                "opacity": 1.0, 
+                "open_adapter": true, 
+                "pos_data": {
+                    "__tuple__": true, 
+                    "items": [
+                        32.0, 
+                        -9.0, 
+                        50.0, 
+                        -14.0625, 
+                        1, 
+                        1
+                    ]
+                }, 
+                "prefab_sub_key": "5f6d51c8-9725-4d3c-88e4-510b53f34785", 
+                "progress_type": 1, 
+                "reverse": false, 
+                "rotation": 0, 
+                "scale": [
+                    1, 
+                    1
+                ], 
+                "scene_ui_name": null, 
+                "size": [
+                    64.0, 
+                    6.0
+                ], 
+                "swallow_touches": false, 
+                "type": 5, 
+                "visible": true
+            }
+        ], 
+        "color": [
+            255, 
+            255, 
+            255, 
+            255
+        ], 
+        "comp_type": "Image", 
+        "custom_kv": {}, 
+        "event_list": [], 
+        "hover_child": "", 
+        "image": 133831, 
+        "is_scale9_enable": false, 
+        "name": "hero", 
+        "opacity": 1.0, 
+        "open_adapter": false, 
+        "pos_data": {
+            "__tuple__": true, 
+            "items": [
+                960.0, 
+                540.0, 
+                50.0, 
+                50.0, 
+                1, 
+                1
+            ]
+        }, 
+        "prefab_key": "7df3d99d-6a4c-47ea-8e9e-415864025f95", 
+        "prefab_sub_key": null, 
+        "rotation": 0, 
+        "scale": [
+            1, 
+            1
+        ], 
+        "scene_ui_name": null, 
+        "size": [
+            64.0, 
+            64.0
+        ], 
+        "size_adaptive": false, 
+        "swallow_touches": false, 
+        "type": 4, 
+        "visible": true
+    }, 
+    "key": "7df3d99d-6a4c-47ea-8e9e-415864025f95", 
+    "name": "hero"
+}

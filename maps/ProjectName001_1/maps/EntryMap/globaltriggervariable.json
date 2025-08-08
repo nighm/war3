@@ -1,0 +1,88 @@
+{
+    "variable_dict": {
+        "FLOAT": {
+            "\u5e78\u5b58\u8005_\u5168\u5c40\u8ba1\u65f6": 0.0
+        }, 
+        "INTEGER": {
+            "GLOBAL_BAG_MAX_NUM": 0, 
+            "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u91cf": 0, 
+            "\u5e78\u5b58\u8005_\u7ecf\u9a8c\u9053\u5177\u6570\u91cf": 0
+        }, 
+        "NEW_TIMER": {}, 
+        "TABLE": {
+            "UI_Manager": null, 
+            "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u636e\u8868": null
+        }, 
+        "UNIT_ENTITY": {}, 
+        "UNIT_NAME": {}
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "UI_Manager", 
+                "UI_Manager"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GLOBAL_BAG_MAX_NUM", 
+                "GLOBAL_BAG_MAX_NUM"
+            ]
+        }, 
+        {
+            "group": [
+                {
+                    "group": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "\u5e78\u5b58\u8005_\u5168\u5c40\u8ba1\u65f6", 
+                                "\u5e78\u5b58\u8005_\u5168\u5c40\u8ba1\u65f6"
+                            ]
+                        }, 
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u91cf", 
+                                "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u91cf"
+                            ]
+                        }, 
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u636e\u8868", 
+                                "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u636e\u8868"
+                            ]
+                        }, 
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "\u5e78\u5b58\u8005_\u7ecf\u9a8c\u9053\u5177\u6570\u91cf", 
+                                "\u5e78\u5b58\u8005_\u7ecf\u9a8c\u9053\u5177\u6570\u91cf"
+                            ]
+                        }
+                    ], 
+                    "key": "xfUHSYetEe+QQFcCQ6y3Fe", 
+                    "name": "\u591a\u4eba\u5e78\u5b58\u8005_\u5168\u5c40\u53d8\u91cf"
+                }, 
+                {
+                    "group": [], 
+                    "key": "xfUHSoetEe+BvFcCQ6y3FX", 
+                    "name": "\u6700\u8fd1\u5bfc\u5165_\u5168\u5c40\u53d8\u91cf"
+                }
+            ], 
+            "key": "xfUHR4etEe+ryVcCQ6y3FW", 
+            "name": "\u591a\u4eba\u5e78\u5b58\u8005_\u5168\u5c40\u53d8\u91cf"
+        }
+    ], 
+    "variable_length_dict": {
+        "GLOBAL_BAG_MAX_NUM": 0, 
+        "UI_Manager": 0, 
+        "\u5e78\u5b58\u8005_\u5168\u5c40\u8ba1\u65f6": 0, 
+        "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u636e\u8868": 0, 
+        "\u5e78\u5b58\u8005_\u73a9\u5bb6\u6570\u91cf": 0, 
+        "\u5e78\u5b58\u8005_\u7ecf\u9a8c\u9053\u5177\u6570\u91cf": 0
+    }
+}

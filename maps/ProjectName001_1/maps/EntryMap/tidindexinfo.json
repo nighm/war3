@@ -1,0 +1,248 @@
+{
+    "-2085483074": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134279454, 
+        "prop_key": "name"
+    }, 
+    "-1930325065": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134261816, 
+        "prop_key": "desc"
+    }, 
+    "-1822762482": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134278867, 
+        "prop_key": "desc"
+    }, 
+    "-1812694163": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134221541, 
+        "prop_key": "name"
+    }, 
+    "-1760503244": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134223003, 
+        "prop_key": "name"
+    }, 
+    "-1600040358": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134268607, 
+        "prop_key": "name"
+    }, 
+    "-1542300792": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134222110, 
+        "prop_key": "name"
+    }, 
+    "-1425106639": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134272672, 
+        "prop_key": "name"
+    }, 
+    "-1406877227": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134258230, 
+        "prop_key": "name"
+    }, 
+    "-1397565338": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134279454, 
+        "prop_key": "desc"
+    }, 
+    "-1343056444": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134218109, 
+        "prop_key": "name"
+    }, 
+    "-1306770521": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134223003, 
+        "prop_key": "desc"
+    }, 
+    "-1288145447": {
+        "editor_type": "projectile_all", 
+        "index_type": "object_editor", 
+        "item_key": 134250844, 
+        "prop_key": "name"
+    }, 
+    "-1025617082": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134275662, 
+        "prop_key": "name"
+    }, 
+    "-955382059": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134268607, 
+        "prop_key": "desc"
+    }, 
+    "-826265222": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134258230, 
+        "prop_key": "desc"
+    }, 
+    "-798792496": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134269615, 
+        "prop_key": "name"
+    }, 
+    "-734288395": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134252698, 
+        "prop_key": "name"
+    }, 
+    "-545453108": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134256141, 
+        "prop_key": "desc"
+    }, 
+    "-510724417": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134249866, 
+        "prop_key": "name"
+    }, 
+    "-409749614": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134227914, 
+        "prop_key": "name"
+    }, 
+    "357423486": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134233546, 
+        "prop_key": "name"
+    }, 
+    "400856059": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134261816, 
+        "prop_key": "name"
+    }, 
+    "539044723": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134249866, 
+        "prop_key": "desc"
+    }, 
+    "599123985": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134244046, 
+        "prop_key": "name"
+    }, 
+    "666672354": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134221541, 
+        "prop_key": "desc"
+    }, 
+    "721928722": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134271792, 
+        "prop_key": "name"
+    }, 
+    "790230400": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134269615, 
+        "prop_key": "desc"
+    }, 
+    "794963676": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134252622, 
+        "prop_key": "name"
+    }, 
+    "880344698": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134218109, 
+        "prop_key": "desc"
+    }, 
+    "1276318394": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134254971, 
+        "prop_key": "name"
+    }, 
+    "1347726549": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134223060, 
+        "prop_key": "name"
+    }, 
+    "1550947828": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134269637, 
+        "prop_key": "desc"
+    }, 
+    "1624138296": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134275662, 
+        "prop_key": "desc"
+    }, 
+    "1678290058": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134220438, 
+        "prop_key": "name"
+    }, 
+    "1700386400": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134269637, 
+        "prop_key": "name"
+    }, 
+    "1890121694": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134220682, 
+        "prop_key": "name"
+    }, 
+    "1922152502": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134278867, 
+        "prop_key": "name"
+    }, 
+    "1965728852": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134235498, 
+        "prop_key": "name"
+    }, 
+    "2008383484": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134256141, 
+        "prop_key": "name"
+    }, 
+    "2069872116": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134254971, 
+        "prop_key": "desc"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "enable_lazy_load": true, 
+    "enable_optimize_loading_same_map": false, 
+    "use_layout_comp": true, 
+    "use_main_level_trigger_and_object": false, 
+    "use_main_level_ui": false
+}

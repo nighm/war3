@@ -1,0 +1,26 @@
+{
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134258416, 
+    "md5": "49ee6a113d082da7dbcc8f743171ca9a", 
+    "model_id": 134258416, 
+    "name": "\u4e0d\u53ef\u7834\u574f\u7bb1\u5b50", 
+    "preview_icon": "UP1ModelPreview/134258416", 
+    "preview_item": {
+        "key": 134258416, 
+        "path": "UP1ModelPreview/134258416", 
+        "size": "100X68"
+    }, 
+    "res_name": "\u4e0d\u53ef\u7834\u574f\u7bb1\u5b50.fbx", 
+    "res_type": "kkres", 
+    "rotate_y": 0.0, 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "uid": 134258416, 
+    "url": "https://kk3.nosdn.127.net/editor/png/338d16a4f621c7532bbcd83e5ccfb2b2.png", 
+    "version": 1, 
+    "yaw": 0
+}

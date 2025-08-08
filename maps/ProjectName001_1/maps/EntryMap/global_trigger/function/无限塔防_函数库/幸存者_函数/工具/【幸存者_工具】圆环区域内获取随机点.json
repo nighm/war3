@@ -1,0 +1,241 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "r", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "内径", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "外径", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "RANDOM_FLOAT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1614237736000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "ANGLE", 
+                            "angle", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [], 
+                    "sub_type": "RANDOM_ANGLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1614237736000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "POINT", 
+                            "pt", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                [
+                                    "POINT", 
+                                    "中心", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 19
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                [
+                                    "ANGLE", 
+                                    "angle", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "r", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "POINT_OFFSET_VECTOR_POINT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1614237736000003, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        [
+                            "POINT", 
+                            "pt", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 19
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1614237736000004, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "圆环区域内获取随机点圆心{中心}内径{内径}外径{外径}", 
+    "func_id": "bb70121e795111ee85d630d042e90e85", 
+    "func_name": "【幸存者_工具】圆环区域内获取随机点", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "中心", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "内径", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "外径", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "返回值_1", 
+                "POINT"
+            ]
+        }
+    ], 
+    "group_id": "xf3cIoetEe+W3FcCQ6y3FW", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1614237736, 
+    "trigger_name": "【幸存者_工具】圆环区域内获取随机点", 
+    "valid": true, 
+    "var_data": [
+        {
+            "ANGLE": {
+                "angle": 0.0
+            }, 
+            "FLOAT": {
+                "r": 0.0, 
+                "内径": 0.0, 
+                "外径": 0.0
+            }, 
+            "POINT": {
+                "pt": [
+                    0, 
+                    0, 
+                    0
+                ], 
+                "中心": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        {
+            "angle": 0, 
+            "pt": 0, 
+            "r": 0, 
+            "中心": 0, 
+            "内径": 0, 
+            "外径": 0
+        }, 
+        [
+            "angle", 
+            "pt", 
+            "r", 
+            "中心", 
+            "内径", 
+            "外径"
+        ]
+    ]
+}

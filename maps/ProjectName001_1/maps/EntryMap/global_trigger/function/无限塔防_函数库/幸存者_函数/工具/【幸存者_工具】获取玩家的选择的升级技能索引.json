@@ -1,0 +1,198 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "索引集合", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "幸存者_玩家数据表"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "玩家", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "sub_type": "PLAYER_ID_NUMBER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "技能集合"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_TABLE_VAR_ND"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 791371824000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "技能索引", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                [
+                                    "TABLE", 
+                                    "索引集合", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "选择位置", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 791371824000002, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        [
+                            "INTEGER", 
+                            "技能索引", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 791371824000003, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "获取玩家{玩家}的选择{选择位置}的升级技能索引", 
+    "func_id": "bf78f2c048cc11ef9615370d59ab78cc", 
+    "func_name": "【幸存者_工具】获取玩家的选择的升级技能索引", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "玩家", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "选择位置", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "结果", 
+                "INTEGER"
+            ]
+        }
+    ], 
+    "group_id": "xf3cIoetEe+W3FcCQ6y3FW", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 791371824, 
+    "trigger_name": "【幸存者_工具】获取玩家的选择的升级技能索引", 
+    "valid": true, 
+    "var_data": [
+        {
+            "INTEGER": {
+                "技能索引": 0, 
+                "选择位置": 0
+            }, 
+            "NEW_TIMER": {}, 
+            "PLAYER": {
+                "玩家": 0
+            }, 
+            "TABLE": {
+                "索引集合": null
+            }
+        }, 
+        {
+            "技能索引": 0, 
+            "玩家": 0, 
+            "索引集合": 0, 
+            "选择位置": 0
+        }, 
+        [
+            "索引集合", 
+            "技能索引", 
+            "玩家", 
+            "选择位置"
+        ]
+    ]
+}

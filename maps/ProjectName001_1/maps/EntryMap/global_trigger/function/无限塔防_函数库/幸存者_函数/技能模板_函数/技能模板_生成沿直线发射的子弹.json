@@ -1,0 +1,786 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        [
+                            "PROJECTILE_ENTITY", 
+                            "bullet", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        {
+                            "arg_type": 100062, 
+                            "args_list": [
+                                [
+                                    "PROJECTILE", 
+                                    "弹药类型", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                [
+                                    "POINT", 
+                                    "起始位置", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 19
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                [
+                                    "UNIT_ENTITY", 
+                                    "所属单位", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 11
+                        }
+                    ], 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "高度", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        null, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        false
+                    ], 
+                    "sub_type": "CREATE_PROJECTILE_NEW"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2075914251000001, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_PROJECTILE_SCALE_XYZ", 
+            "args_list": [
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        [
+                            "PROJECTILE_ENTITY", 
+                            "bullet", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "缩放", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "缩放", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "缩放", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2075914251000002, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }, 
+        {
+            "action_type": "CREATE_STRAIGHT_MOVER", 
+            "args_list": [
+                {
+                    "arg_type": 100077, 
+                    "args_list": [
+                        [
+                            "PROJECTILE_ENTITY", 
+                            "bullet", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [
+                        [
+                            "ANGLE", 
+                            "弹道方向", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "最大距离", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "速度", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "condition_type": "TYPE_IS_EXIST", 
+                                            "element_id": 2075914251000003, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "PROJECTILE_DELETE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 2075914251000004, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000005, 
+                            "enable": true, 
+                            "fake_op": []
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "condition_type": "TYPE_IS_EXIST", 
+                                            "element_id": 2075914251000006, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "PROJECTILE_DELETE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 2075914251000007, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000008, 
+                            "enable": true, 
+                            "fake_op": []
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "IF_THEN_ELSE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100021, 
+                                    "args_list": [
+                                        {
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "condition_type": "TYPE_IS_EXIST", 
+                                            "element_id": 2075914251000009, 
+                                            "enable": true
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [
+                                        {
+                                            "action_type": "PROJECTILE_DELETE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100077, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_MOVER_OWNER_PROJECTILE"
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 2075914251000010, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100022, 
+                                    "args_list": [], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000011, 
+                            "enable": true, 
+                            "fake_op": []
+                        }, 
+                        {
+                            "action_type": "APPLY_DAMAGE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        [
+                                            "UNIT_ENTITY", 
+                                            "所属单位", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [
+                                        [
+                                            "ABILITY", 
+                                            "伤害归属技能", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "MOVER_COLLIDE_UNIT"
+                                }, 
+                                {
+                                    "arg_type": 100064, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        [
+                                            "FLOAT", 
+                                            "伤害", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": 2
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 2075914251000012, 
+                            "enable": true, 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100001, 
+                                    "args_list": [
+                                        true
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                false
+                            ]
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2075914251000013, 
+            "enable": true, 
+            "fake_op": [
+                8, 
+                9
+            ], 
+            "local_var": {
+                "__tuple__": true, 
+                "items": [
+                    {}, 
+                    {}
+                ]
+            }, 
+            "op_arg": [
+                null, 
+                null, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "高度", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                null, 
+                null, 
+                {
+                    "arg_type": 100176, 
+                    "args_list": [
+                        0
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        [
+                            "FLOAT", 
+                            "碰撞范围", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 2
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                null, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                null, 
+                null, 
+                null, 
+                null, 
+                null
+            ], 
+            "op_arg_enable": [
+                false, 
+                false, 
+                true, 
+                false, 
+                false, 
+                true, 
+                true, 
+                false, 
+                false, 
+                true, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "生成沿直线发射的子弹，弹药类型{弹药类型}，起始位置{起始位置}，速度{速度}，弹道方向{弹道方向}，缩放{缩放}，碰撞范围{碰撞范围}，高度{高度}，最大距离{最大距离}，伤害{伤害}，所属单位{所属单位}，伤害所属技能{伤害归属技能}", 
+    "func_id": "571acb2f87a311efbe05cf54bf7ab2ac", 
+    "func_name": "技能模板_生成沿直线发射的子弹", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "弹药类型", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "起始位置", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "所属单位", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "高度", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "碰撞范围", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "伤害", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "最大距离", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "速度", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "弹道方向", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "缩放", 
+                true
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "伤害归属技能", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "xgGVz4etEe+l21cCQ6y3FU", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 2075914251, 
+    "trigger_name": "技能模板_生成沿直线发射的子弹", 
+    "valid": true, 
+    "var_data": [
+        {
+            "ABILITY": {
+                "伤害归属技能": null
+            }, 
+            "ANGLE": {
+                "弹道方向": 0.0
+            }, 
+            "FLOAT": {
+                "伤害": 0.0, 
+                "最大距离": 0.0, 
+                "碰撞范围": 0.0, 
+                "缩放": 0.0, 
+                "速度": 0.0, 
+                "高度": 0.0
+            }, 
+            "POINT": {
+                "起始位置": [
+                    0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "PROJECTILE": {
+                "弹药类型": 0
+            }, 
+            "PROJECTILE_ENTITY": {
+                "bullet": 0
+            }, 
+            "UNIT_ENTITY": {
+                "所属单位": 0
+            }
+        }, 
+        {
+            "bullet": 0, 
+            "伤害": 0, 
+            "伤害归属技能": 0, 
+            "弹药类型": 0, 
+            "弹道方向": 0, 
+            "所属单位": 0, 
+            "最大距离": 0, 
+            "碰撞范围": 0, 
+            "缩放": 0, 
+            "起始位置": 0, 
+            "速度": 0, 
+            "高度": 0
+        }, 
+        [
+            "bullet", 
+            "伤害", 
+            "伤害归属技能", 
+            "弹药类型", 
+            "弹道方向", 
+            "所属单位", 
+            "最大距离", 
+            "碰撞范围", 
+            "缩放", 
+            "起始位置", 
+            "速度", 
+            "高度"
+        ]
+    ]
+}

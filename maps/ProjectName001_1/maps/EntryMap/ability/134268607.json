@@ -1,0 +1,230 @@
+{
+    "local_variable": {
+        "1439666179": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0, 
+                    "\u5c42\u6570": 0, 
+                    "\u5e8f\u53f7": 0, 
+                    "\u5f53\u524d\u7b49\u7ea7": 0
+                }, 
+                "PROJECTILE_ENTITY": {
+                    "\u5f39\u836f": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0, 
+                "\u5c42\u6570": 0, 
+                "\u5e8f\u53f7": 0, 
+                "\u5f39\u836f": 0, 
+                "\u5f53\u524d\u7b49\u7ea7": 0
+            }
+        }
+    }, 
+    "trigger_dict": {
+        "1439666179": {
+            "action": [
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }
+                            ], 
+                            "sub_type": "GET_ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u51b7\u5374\u7f29\u51cf"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100014, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CUR_ABILITY"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_ABILITY_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                "\u51b7\u5374\u7f29\u51cf"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_FLOAT_KV"
+                                }, 
+                                {
+                                    "arg_type": 100017, 
+                                    "args_list": [
+                                        "+"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100000, 
+                                    "args_list": [
+                                        20.0
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "ARITHMETIC_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1439666179001195, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1439666179000003, 
+                    "enable": true, 
+                    "event_type": "ABILITY_LEVEL_CHANGED"
+                }
+            ], 
+            "group_id": 134268607, 
+            "p_trigger_id": null, 
+            "trigger_id": 1439666179, 
+            "trigger_name": "\u6280\u80fd\u7b49\u7ea7\u53d8\u5316", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "INTEGER": {
+                        "i": 0, 
+                        "\u5c42\u6570": 0, 
+                        "\u5e8f\u53f7": 0, 
+                        "\u5f53\u524d\u7b49\u7ea7": 0
+                    }, 
+                    "PROJECTILE_ENTITY": {
+                        "\u5f39\u836f": 0
+                    }
+                }, 
+                {
+                    "i": 0, 
+                    "\u5c42\u6570": 0, 
+                    "\u5e8f\u53f7": 0, 
+                    "\u5f39\u836f": 0, 
+                    "\u5f53\u524d\u7b49\u7ea7": 0
+                }, 
+                [
+                    "\u5f53\u524d\u7b49\u7ea7", 
+                    "i", 
+                    "\u5f39\u836f", 
+                    "\u5c42\u6570", 
+                    "\u5e8f\u53f7"
+                ]
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        1439666179, 
+                        "\u6280\u80fd\u7b49\u7ea7\u53d8\u5316"
+                    ]
+                }
+            ], 
+            "key": 134268607, 
+            "name": "134268607"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {
+        "DYNAMIC_TRIGGER_INSTANCE": {}, 
+        "FLOAT": {
+            "\u4f24\u5bb3": 0.0, 
+            "\u5f39\u9053\u901f\u5ea6": 0.0, 
+            "\u73af\u7ed5\u534a\u5f84": 0.0
+        }, 
+        "INTEGER": {
+            "\u5f39\u9053\u6570\u91cf": 0
+        }, 
+        "MOVER_ENTITY": {
+            "\u6295\u5c04\u7269\u8fd0\u52a8\u5668\u96c6\u5408": 0
+        }, 
+        "NEW_TIMER": {}, 
+        "PROJECTILE": {
+            "\u5f39\u836f\u7c7b\u578b": 0
+        }
+    }, 
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6295\u5c04\u7269\u8fd0\u52a8\u5668\u96c6\u5408", 
+                "\u6295\u5c04\u7269\u8fd0\u52a8\u5668\u96c6\u5408"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5f39\u836f\u7c7b\u578b", 
+                "\u5f39\u836f\u7c7b\u578b"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5f39\u9053\u6570\u91cf", 
+                "\u5f39\u9053\u6570\u91cf"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u5f39\u9053\u901f\u5ea6", 
+                "\u5f39\u9053\u901f\u5ea6"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u73af\u7ed5\u534a\u5f84", 
+                "\u73af\u7ed5\u534a\u5f84"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u4f24\u5bb3", 
+                "\u4f24\u5bb3"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "\u4f24\u5bb3": 0, 
+        "\u5f39\u836f\u7c7b\u578b": 0, 
+        "\u5f39\u9053\u6570\u91cf": 0, 
+        "\u5f39\u9053\u901f\u5ea6": 0, 
+        "\u6295\u5c04\u7269\u8fd0\u52a8\u5668\u96c6\u5408": 10, 
+        "\u73af\u7ed5\u534a\u5f84": 0
+    }
+}

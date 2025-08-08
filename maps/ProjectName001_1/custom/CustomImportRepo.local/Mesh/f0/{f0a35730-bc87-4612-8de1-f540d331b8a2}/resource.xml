@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>8</Version>
+	<SRenderMeshData>
+		<Root>
+			<Sub/>
+			<Entity type="SRenderMeshData">
+				<VertexFormat count="4">
+					<Element index="0">P3F_N4B_T2F</Element>
+					<Element index="1">T4H_B4H</Element>
+					<Element index="2">None</Element>
+					<Element index="3">None</Element>
+				</VertexFormat>
+				<VertexCount>7637</VertexCount>
+				<IndexCount>9828</IndexCount>
+				<StreamingMask>0</StreamingMask>
+				<PrimTopology>Tri_List</PrimTopology>
+				<KeepData>false</KeepData>
+				<BoundingVolume rawdata="CtcjNpjZhMCPwnU2AAAAQvylhUD///9BAACAQg==">(0.00000244140624694,-4.15156188964843764,0.00000366210940328,32.00000000000005684,4.17651184082031257,31.99999877929690584,64.00000000000011369)</BoundingVolume>
+				<BoundingBox rawdata="////wco/BcH9///BAQAAQtdjzDwBAABC">(-31.99999755859380812,-8.32807373046875021,-31.99999511718750256,32.00000244140630201,0.02494995117187526,32.00000244140630912)</BoundingBox>
+				<Streams count="4">
+					<Element index="0">
+						<StreamSize>183288</StreamSize>
+					</Element>
+					<Element index="1">
+						<StreamSize>122192</StreamSize>
+					</Element>
+					<Element index="2">
+						<StreamSize>0</StreamSize>
+					</Element>
+					<Element index="3">
+						<StreamSize>0</StreamSize>
+					</Element>
+				</Streams>
+				<Indices>
+					<StreamSize>19656</StreamSize>
+				</Indices>
+				<Groups count="2" ordered="true">
+					<Element index="0">
+						<StartIndex>0</StartIndex>
+						<IndicesCount>156</IndicesCount>
+						<StartVertex>0</StartVertex>
+						<VerticesCount>52</VerticesCount>
+						<BoundingVolume rawdata="CtcjNrgeTDyPwnU2AAAAQgBADSf///9BAACAQg==">(0.00000244140624694,0.01245849609375,0.00000366210940328,32.00000000000005684,0.00000000000000196,31.99999877929690584,64.00000000000011369)</BoundingVolume>
+						<BoundingBox rawdata="////wbgeTDz9///BAQAAQrgeTDwBAABC">(-31.99999755859380812,0.01245849609374804,-31.99999511718750256,32.00000244140630201,0.01245849609375196,32.00000244140630912)</BoundingBox>
+					</Element>
+					<Element index="1">
+						<StartIndex>156</StartIndex>
+						<IndicesCount>9672</IndicesCount>
+						<StartVertex>52</StartVertex>
+						<VerticesCount>7585</VerticesCount>
+						<BoundingVolume rawdata="AACAppjZhMApXA83aKIxQfylhUBoojFBaKKxQQ==">(-0.00000000000000089,-4.15156188964843764,0.0000085449218501,11.10214965820309985,4.17651184082031257,11.10214965820314958,22.20429931640629917)</BoundingVolume>
+						<BoundingBox rawdata="aKIxwco/BcFfojHBaKIxQddjzDxxojFB">(-11.10214965820310162,-8.32807373046875021,-11.10214111328130038,11.10214965820309985,0.02494995117187526,11.10215820312500057)</BoundingBox>
+					</Element>
+				</Groups>
+			</Entity>
+		</Root>
+	</SRenderMeshData>
+</Resource>

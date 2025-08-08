@@ -1,0 +1,20 @@
+{
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134226403, 
+    "md5": "5ab3be1711734b2d7d7c01120bd97bfb", 
+    "model_id": 134226403, 
+    "name": "\u5730\u7247", 
+    "preview_icon": "UP1ModelPreview/134226403", 
+    "res_name": "\u5730\u7247.FBX", 
+    "rotate_y": 0.0, 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "uid": 134226403, 
+    "url": "https://kk3.nosdn.127.net/editor/png/0e66e7d32b64f2a0817376f8a5e080e4.png", 
+    "version": 1, 
+    "yaw": 0
+}

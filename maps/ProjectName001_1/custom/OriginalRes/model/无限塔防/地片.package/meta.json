@@ -1,0 +1,35 @@
+{
+    "id": 134226403,
+    "materials": [
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {
+                    "tMixMap": "m.tga"
+                }
+            },
+            {
+                "name": "Common/Materials/MaterialFlag/M_PBR_Base_Clipping_DoubleSided_Flag",
+                "source_path": {
+                    "tBaseMap": "\u5730\u7247_1_d.tga",
+                    "tMixMap": "m.tga"
+                }
+            }
+        ]
+    ],
+    "md5_file_list": [
+        "\u5730\u7247.FBX",
+        "\u5730\u7247_1_d.tga",
+        "m.tga"
+    ],
+    "modification_time": 6957593367.756474,
+    "ori_res_type": "ori",
+    "physic": true,
+    "preview_icon": "thumbnail.png",
+    "res_type": "model",
+    "skeleton": "",
+    "source_path": "\u5730\u7247.FBX",
+    "static_import": true,
+    "version": 1,
+    "yaw": 0
+}

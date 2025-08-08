@@ -1,0 +1,61 @@
+{
+    "describe": -291488867, 
+    "editor_res": false, 
+    "key": 103883, 
+    "map_name": "H69\u8bf8\u795e\u9ec4\u660f2", 
+    "model_id": 220181, 
+    "name": 105580031, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Realistic", 
+            "code_Magical", 
+            "code_Nordic civilization", 
+            "code_Buildings", 
+            "code_Whole buildings", 
+            "code_Blue", 
+            "code_Stone", 
+            "code_Sacrificial altar", 
+            "P1(\u897f\u65b9\u795e\u8bdd\u7cfb\u5217)"
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/103883", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "res_identify": "all", 
+    "res_type": "code_model_Scene,code_Building,code_Building whole", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {
+        "buff": {
+            "__tuple__": true, 
+            "items": [
+                "buff", 
+                "Scene Root", 
+                0.0, 
+                1.0, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
+        "hit_point": {
+            "__tuple__": true, 
+            "items": [
+                "hit_point", 
+                "Scene Root", 
+                0.0, 
+                0.6, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }
+    }, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_103883"
+}

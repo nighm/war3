@@ -1,107 +1,73 @@
-# War3 Custom Map Studio
+# 魔兽争霸3自定义地图开发项目
 
-## 项目概述
+基于网易Y3编辑器的War3地图开发项目，提供完整的开发环境、文档体系和协作工具。
 
-War3 Custom Map Studio 是一个完整的魔兽争霸3自定义地图制作工具链，采用领域驱动设计（DDD）架构，提供从地图设计到最终发布的完整解决方案。202508072051
-
-### 核心功能
-
-- 🗺️ **地图编辑器**: 可视化地图设计工具
-- ⚡ **触发器系统**: 图形化触发器编辑器
-- 🎨 **资源管理器**: 模型、贴图、音效管理
-- 📊 **数据编辑器**: 单位、物品、技能数据编辑
-- 🧪 **测试工具**: 地图测试和调试功能
-- 📦 **发布系统**: 地图打包和发布管理
-
-### 技术架构
+## 项目结构
 
 ```
-src/
-├── domain/           # 领域层 - 核心业务逻辑
-│   ├── entities/     # 实体（地图、单位、技能等）
-│   ├── value_objects/ # 值对象
-│   └── services/     # 领域服务
-├── application/      # 应用层 - 用例和业务流程
-│   ├── use_cases/    # 用例实现
-│   └── services/     # 应用服务
-├── infrastructure/   # 基础设施层 - 外部依赖
-│   ├── persistence/  # 数据持久化
-│   ├── external/     # 外部服务
-│   └── tools/        # 工具集成
-├── interfaces/       # 接口层 - 用户界面
-│   ├── cli/          # 命令行接口
-│   ├── gui/          # 图形用户界面
-│   └── api/          # API接口
-└── shared/           # 共享组件
-    ├── utils/        # 工具函数
-    └── constants/    # 常量定义
+war3/
+├── docs/                    # 📚 文档体系
+│   ├── README.md           # 文档导航
+│   ├── 项目管理/           # 项目规划与规范
+│   ├── 教学文档/           # Y3编辑器使用教程
+│   └── 附录/              # 术语表、FAQ等
+├── maps/                   # 🗺️ 地图项目目录
+│   └── ProjectName001_1/   # 你的地图项目
+├── tools/                  # 🛠️ 工具脚本
+│   ├── start_y3_editor.py  # 启动Y3编辑器
+│   ├── map_manager.py      # 地图项目管理工具
+│   ├── quick_import.py     # 快速导入工具
+│   └── sync_to_github.py   # Git同步工具
+├── templates/              # 📋 项目模板
+└── src/                    # 💻 源代码
 ```
 
-### 开发环境要求
+## 快速开始
 
-- Python 3.8+
-- PyQt6
-- Git
-- 魔兽争霸3游戏文件（用于资源提取）
-
-### 快速开始
-
-1. **克隆项目**
+### 1. 启动Y3编辑器
 ```bash
-git clone <repository-url>
-cd war3-custom-map-studio
+python start_y3_editor.py
 ```
 
-2. **安装依赖**
+### 2. 导入地图项目
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+python tools/quick_import.py
 ```
 
-3. **运行应用**
+### 3. 管理地图项目
 ```bash
-python src/main.py
+python tools/map_manager.py
 ```
 
-### 项目结构
-
-```
-war3-custom-map-studio/
-├── src/                    # 源代码
-│   ├── domain/            # 领域层
-│   ├── application/       # 应用层
-│   ├── infrastructure/    # 基础设施层
-│   ├── interfaces/        # 接口层
-│   └── shared/           # 共享组件
-├── docs/                  # 文档
-├── tests/                 # 测试
-├── resources/             # 资源文件
-├── scripts/              # 脚本工具
-├── config/               # 配置文件
-└── output/               # 输出文件
+### 4. 同步到GitHub
+```bash
+python sync_to_github.py
 ```
 
-### 开发规范
+## 主要功能
 
-- 遵循DDD架构原则
-- 使用类型提示
-- 编写单元测试
-- 代码注释使用中文
-- 提交信息使用中文
+- 🎮 **Y3编辑器集成**: 一键启动和管理Y3编辑器
+- 📁 **地图项目管理**: 导入、备份、同步、模板化
+- 📚 **完整文档体系**: 从入门到进阶的详细教程
+- 🤝 **团队协作**: Git版本管理、文档维护规范
+- 🛠️ **自动化工具**: 批量处理、快速导入导出
 
-### 贡献指南
+## 文档导航
 
-1. Fork 项目
-2. 创建功能分支
-3. 提交更改
-4. 推送到分支
-5. 创建 Pull Request
+详细文档请查看 [docs/README.md](docs/README.md)
 
-### 许可证
+## 开发环境
 
-MIT License
+- Y3编辑器: `D:\Program Files\y3\games\2.0\game\Editor.exe`
+- Python: 3.7+
+- Git: 版本管理
 
----
+## 贡献指南
 
-**注意**: 本项目仅用于学习和研究目的，请遵守相关游戏的使用条款。 
+1. 阅读 [docs/新成员入门指引.md](docs/新成员入门指引.md)
+2. 按照 [docs/团队协作与文档维护建议.md](docs/团队协作与文档维护建议.md) 进行协作
+3. 遇到问题请查看 [docs/附录/FAQ.md](docs/附录/FAQ.md)
+
+## 许可证
+
+MIT License 

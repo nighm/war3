@@ -1,0 +1,10 @@
+{
+    "choice1.json": 2, 
+    "choice2.json": 3, 
+    "choice3.json": 4, 
+    "choice4.json": 5, 
+    "choice5.json": 6, 
+    "关闭升级界面.json": 1, 
+    "打开升级界面.json": 0, 
+    "点击自动升级.json": 7
+}

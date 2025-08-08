@@ -1,0 +1,20 @@
+{
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134275304, 
+    "md5": "69229a454c21d4f2269475f3cb79e0d6", 
+    "model_id": 134275304, 
+    "name": "\u90fd\u5e02\u5e7f\u573a_\u94c1\u67b6", 
+    "preview_icon": "UP1ModelPreview/134275304", 
+    "res_name": "\u90fd\u5e02\u5e7f\u573a_\u94c1\u67b6.fbx", 
+    "rotate_y": 0.0, 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "uid": 134275304, 
+    "url": "https://kk3.nosdn.127.net/editor/png/24aa6da37a6bcd19989129db23b7a2f2.png", 
+    "version": 1, 
+    "yaw": 0
+}

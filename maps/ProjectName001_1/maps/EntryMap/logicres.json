@@ -1,0 +1,4893 @@
+{
+    "1024": {}, 
+    "2048": {
+        "10296": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    87, 
+                    3905774127
+                ]
+            }, 
+            "id": 10296, 
+            "name": "\u77e9\u5f62\u533a\u57df", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -48, 
+                        1452468692
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        -45, 
+                        3612925853
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "tags": {
+                "__tuple__": true, 
+                "items": []
+            }, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    92, 
+                    935413135
+                ]
+            }
+        }
+    }, 
+    "4096": {}, 
+    "8192": {}, 
+    "32768": {
+        "9999": {
+            "camera_dist": 135.99992598045097, 
+            "far": 1000.0, 
+            "focus_max_dist": 400.0, 
+            "focus_min_dist": 10.0, 
+            "focus_x": 0.0, 
+            "focus_y": 0.0, 
+            "focus_z": 0.0, 
+            "fov": 35.0, 
+            "fov_disabled": true, 
+            "id": 9999, 
+            "is_origin_cam": true, 
+            "is_ortho": false, 
+            "name": "\u521d\u59cb\u955c\u5934", 
+            "ortho_scale": 1.0, 
+            "pitch": 0.8573056762488735, 
+            "placed_lock": false, 
+            "placed_visibility": false, 
+            "roll": 0.0, 
+            "set_camera_conf_realtime": false, 
+            "type": 32768, 
+            "yaw": 6.283185307179586
+        }, 
+        "10298": {
+            "camera_dist": 135.99992598045097, 
+            "far": 1000.0, 
+            "focus_max_dist": null, 
+            "focus_min_dist": null, 
+            "focus_x": 0.0, 
+            "focus_y": 0.0, 
+            "focus_z": 0.0, 
+            "fov": 35.0, 
+            "fov_disabled": null, 
+            "id": 10298, 
+            "is_origin_cam": false, 
+            "is_ortho": false, 
+            "name": "\u955c\u59341", 
+            "ortho_scale": 1, 
+            "pitch": 0.8573056762488735, 
+            "placed_lock": false, 
+            "placed_visibility": false, 
+            "roll": 0.0, 
+            "set_camera_conf_realtime": null, 
+            "type": 32768, 
+            "yaw": 6.283185307179586
+        }, 
+        "10299": {
+            "camera_dist": 64.00000844415537, 
+            "far": 1000.0, 
+            "focus_max_dist": null, 
+            "focus_min_dist": null, 
+            "focus_x": 0.0, 
+            "focus_y": 0.0, 
+            "focus_z": 0.0, 
+            "fov": 35.0, 
+            "fov_disabled": null, 
+            "id": 10299, 
+            "is_origin_cam": false, 
+            "is_ortho": false, 
+            "name": "\u955c\u59342", 
+            "ortho_scale": 1, 
+            "pitch": 0.8573054361459316, 
+            "placed_lock": false, 
+            "placed_visibility": false, 
+            "roll": 0.0, 
+            "set_camera_conf_realtime": null, 
+            "type": 32768, 
+            "yaw": 6.283185307179586
+        }
+    }, 
+    "65536": {}, 
+    "131072": {
+        "10044": {
+            "auto_on_terrain": false, 
+            "id": 10044, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.6078431372549019, 
+                    0.20784313725490197, 
+                    0.7058823529411765
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 2368.5, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.709199999999999, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -29, 
+                        166913905
+                    ], 
+                    [
+                        3, 
+                        2233382998
+                    ], 
+                    [
+                        -24, 
+                        838618072
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10045": {
+            "auto_on_terrain": false, 
+            "id": 10045, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.1843137254901961, 
+                    0.20392156862745098, 
+                    0.7294117647058823
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 2000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0855, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -31, 
+                        2236384449
+                    ], 
+                    [
+                        2, 
+                        3736621546
+                    ], 
+                    [
+                        -26, 
+                        496425688
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10046": {
+            "auto_on_terrain": false, 
+            "id": 10046, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.5294117647058824, 
+                    0.1843137254901961, 
+                    0.7294117647058823
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 2000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.709199999999999, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -31, 
+                        4234493673
+                    ], 
+                    [
+                        10, 
+                        2018634638
+                    ], 
+                    [
+                        -24, 
+                        2470532036
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10064": {
+            "auto_on_terrain": false, 
+            "id": 10064, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.5294117647058824, 
+                    0.1843137254901961, 
+                    0.7294117647058823
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 2000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.709199999999999, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        31, 
+                        2545976461
+                    ], 
+                    [
+                        10, 
+                        2018634638
+                    ], 
+                    [
+                        -10, 
+                        424416911
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10065": {
+            "auto_on_terrain": false, 
+            "id": 10065, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.6078431372549019, 
+                    0.20784313725490197, 
+                    0.7058823529411765
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1200.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.709199999999999, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        30, 
+                        3279858965
+                    ], 
+                    [
+                        3, 
+                        2233382998
+                    ], 
+                    [
+                        -11, 
+                        3087470243
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10066": {
+            "auto_on_terrain": false, 
+            "id": 10066, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.1843137254901961, 
+                    0.20392156862745098, 
+                    0.7294117647058823
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0855, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        29, 
+                        747783887
+                    ], 
+                    [
+                        2, 
+                        3736621546
+                    ], 
+                    [
+                        -13, 
+                        2745277859
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10090": {
+            "auto_on_terrain": false, 
+            "id": 10090, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8156862745098039, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 8.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -28, 
+                        2035763021
+                    ], 
+                    [
+                        2, 
+                        1889785624
+                    ], 
+                    [
+                        27, 
+                        4274907353
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10091": {
+            "auto_on_terrain": false, 
+            "id": 10091, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8156862745098039, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 500.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -28, 
+                        461129549
+                    ], 
+                    [
+                        6, 
+                        3521873195
+                    ], 
+                    [
+                        29, 
+                        1528883417
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10107": {
+            "auto_on_terrain": false, 
+            "id": 10107, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.9647058823529412, 
+                    0.9333333333333333, 
+                    0.0
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 8.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        15, 
+                        3464172885
+                    ], 
+                    [
+                        0, 
+                        987842476
+                    ], 
+                    [
+                        47, 
+                        2466577081
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    93550641
+                ]
+            }
+        }, 
+        "10109": {
+            "auto_on_terrain": false, 
+            "id": 10109, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.9647058823529412, 
+                    0.9333333333333333, 
+                    0.0
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 5.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        19, 
+                        2924156245
+                    ], 
+                    [
+                        0, 
+                        2018634632
+                    ], 
+                    [
+                        47, 
+                        4229659321
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    93550641
+                ]
+            }
+        }, 
+        "10112": {
+            "auto_on_terrain": false, 
+            "id": 10112, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.9647058823529412, 
+                    0.9333333333333333, 
+                    0.0
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 5.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        21, 
+                        1190073685
+                    ], 
+                    [
+                        0, 
+                        2018634632
+                    ], 
+                    [
+                        44, 
+                        3140065977
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    93550641
+                ]
+            }
+        }, 
+        "10134": {
+            "auto_on_terrain": false, 
+            "id": 10134, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -20, 
+                        3413379919
+                    ], 
+                    [
+                        2, 
+                        3049426773
+                    ], 
+                    [
+                        -30, 
+                        2059152344
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10141": {
+            "auto_on_terrain": false, 
+            "id": 10141, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 200.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 5.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -29, 
+                        1518422863
+                    ], 
+                    [
+                        2, 
+                        558345739
+                    ], 
+                    [
+                        -30, 
+                        3927985112
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10142": {
+            "auto_on_terrain": false, 
+            "id": 10142, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 200.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 5.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -27, 
+                        3454339919
+                    ], 
+                    [
+                        2, 
+                        343597374
+                    ], 
+                    [
+                        -30, 
+                        2948238296
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10147": {
+            "auto_on_terrain": false, 
+            "id": 10147, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8156862745098039, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 8.0211, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -50, 
+                        3947504442
+                    ], 
+                    [
+                        -2, 
+                        429496730
+                    ], 
+                    [
+                        -26, 
+                        2208901680
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10148": {
+            "auto_on_terrain": false, 
+            "id": 10148, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8156862745098039, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 200.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 8.0211, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -49, 
+                        572948637
+                    ], 
+                    [
+                        -5, 
+                        257698038
+                    ], 
+                    [
+                        -26, 
+                        1715839435
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10152": {
+            "auto_on_terrain": false, 
+            "id": 10152, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.5294117647058824, 
+                    0.1843137254901961, 
+                    0.7294117647058823
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 2000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.709199999999999, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -39, 
+                        3297463119
+                    ], 
+                    [
+                        8, 
+                        3822520895
+                    ], 
+                    [
+                        -22, 
+                        75877336
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10154": {
+            "auto_on_terrain": false, 
+            "id": 10154, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    1.0, 
+                    1.0, 
+                    1.0
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 200.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 5.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        45, 
+                        2582450069
+                    ], 
+                    [
+                        -8, 
+                        3865470546
+                    ], 
+                    [
+                        -16, 
+                        592182281
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10155": {
+            "auto_on_terrain": false, 
+            "id": 10155, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8627450980392157, 
+                    0.0, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 3.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        45, 
+                        1955499925
+                    ], 
+                    [
+                        -10, 
+                        2662879696
+                    ], 
+                    [
+                        -16, 
+                        1459403785
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10156": {
+            "auto_on_terrain": false, 
+            "id": 10156, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8627450980392157, 
+                    0.9921568627450981
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 30.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 0.7, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        46, 
+                        191477637
+                    ], 
+                    [
+                        -11, 
+                        1889785596
+                    ], 
+                    [
+                        -18, 
+                        778635779
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10157": {
+            "auto_on_terrain": false, 
+            "id": 10157, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8627450980392157, 
+                    0.9921568627450981
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 30.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 0.7, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        45, 
+                        1835591118
+                    ], 
+                    [
+                        -11, 
+                        1889785596
+                    ], 
+                    [
+                        -18, 
+                        924235171
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10158": {
+            "auto_on_terrain": false, 
+            "id": 10158, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8627450980392157, 
+                    0.9921568627450981
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 30.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 0.7, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        44, 
+                        4138123085
+                    ], 
+                    [
+                        -11, 
+                        2104533961
+                    ], 
+                    [
+                        -18, 
+                        1081430974
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10159": {
+            "auto_on_terrain": false, 
+            "id": 10159, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.996078431372549, 
+                    0.796078431372549, 
+                    0.0
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 70.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 1.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        40, 
+                        1912375783
+                    ], 
+                    [
+                        -10, 
+                        2748779059
+                    ], 
+                    [
+                        -24, 
+                        2317671433
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10160": {
+            "auto_on_terrain": false, 
+            "id": 10160, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.996078431372549, 
+                    0.796078431372549, 
+                    0.0
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 70.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        40, 
+                        1786022375
+                    ], 
+                    [
+                        -10, 
+                        2748779059
+                    ], 
+                    [
+                        -23, 
+                        2024578057
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10174": {
+            "auto_on_terrain": false, 
+            "id": 10174, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8156862745098039, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 500.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -30, 
+                        3250046797
+                    ], 
+                    [
+                        7, 
+                        1460288895
+                    ], 
+                    [
+                        31, 
+                        3642157273
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10175": {
+            "auto_on_terrain": false, 
+            "id": 10175, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8156862745098039, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 500.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 8.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -28, 
+                        1058195277
+                    ], 
+                    [
+                        2, 
+                        1889785624
+                    ], 
+                    [
+                        31, 
+                        2933057753
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10189": {
+            "auto_on_terrain": false, 
+            "id": 10189, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8980392156862745, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 10.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": true, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -8, 
+                        3559213990
+                    ], 
+                    [
+                        -1, 
+                        2018634643
+                    ], 
+                    [
+                        2, 
+                        1121731379
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10190": {
+            "auto_on_terrain": false, 
+            "id": 10190, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8980392156862745, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 10.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": true, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -6, 
+                        30051238
+                    ], 
+                    [
+                        -1, 
+                        2018634643
+                    ], 
+                    [
+                        -4, 
+                        2029642547
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10191": {
+            "auto_on_terrain": false, 
+            "id": 10191, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8980392156862745, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 10.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": true, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        5, 
+                        2527941542
+                    ], 
+                    [
+                        -1, 
+                        2018634643
+                    ], 
+                    [
+                        -4, 
+                        4225884979
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10192": {
+            "auto_on_terrain": false, 
+            "id": 10192, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8980392156862745, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 10.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": true, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        9, 
+                        2412276646
+                    ], 
+                    [
+                        -1, 
+                        2018634643
+                    ], 
+                    [
+                        5, 
+                        4005040947
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10193": {
+            "auto_on_terrain": false, 
+            "id": 10193, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8980392156862745, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 10.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": true, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -1, 
+                        4037129510
+                    ], 
+                    [
+                        -1, 
+                        2018634643
+                    ], 
+                    [
+                        6, 
+                        2582754099
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10194": {
+            "auto_on_terrain": false, 
+            "id": 10194, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8980392156862745, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 10.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": true, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -5, 
+                        3219090342
+                    ], 
+                    [
+                        -1, 
+                        1846835949
+                    ], 
+                    [
+                        4, 
+                        3431090995
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10195": {
+            "auto_on_terrain": false, 
+            "id": 10195, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.8980392156862745, 
+                    0.996078431372549
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 1.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": true, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        5, 
+                        4058327974
+                    ], 
+                    [
+                        -1, 
+                        2018634643
+                    ], 
+                    [
+                        3, 
+                        1000962867
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10226": {
+            "auto_on_terrain": false, 
+            "id": 10226, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -8, 
+                        1067299373
+                    ], 
+                    [
+                        10, 
+                        1288490189
+                    ], 
+                    [
+                        -43, 
+                        3664466097
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10227": {
+            "auto_on_terrain": false, 
+            "id": 10227, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        6, 
+                        197138999
+                    ], 
+                    [
+                        10, 
+                        1288490189
+                    ], 
+                    [
+                        -43, 
+                        3664466097
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10228": {
+            "auto_on_terrain": false, 
+            "id": 10228, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        19, 
+                        4219153483
+                    ], 
+                    [
+                        10, 
+                        1288490189
+                    ], 
+                    [
+                        -43, 
+                        3664466097
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10230": {
+            "auto_on_terrain": false, 
+            "id": 10230, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -38, 
+                        2708835874
+                    ], 
+                    [
+                        1, 
+                        4209067950
+                    ], 
+                    [
+                        18, 
+                        1875612218
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10231": {
+            "auto_on_terrain": false, 
+            "id": 10231, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -38, 
+                        2368150250
+                    ], 
+                    [
+                        1, 
+                        4209067950
+                    ], 
+                    [
+                        20, 
+                        2156101830
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10232": {
+            "auto_on_terrain": false, 
+            "id": 10232, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -31, 
+                        1842111473
+                    ], 
+                    [
+                        -7, 
+                        1073741824
+                    ], 
+                    [
+                        57, 
+                        3548501980
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10233": {
+            "auto_on_terrain": false, 
+            "id": 10233, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 200.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -31, 
+                        1691787618
+                    ], 
+                    [
+                        -11, 
+                        3393024164
+                    ], 
+                    [
+                        56, 
+                        3741775508
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10234": {
+            "auto_on_terrain": false, 
+            "id": 10234, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        57, 
+                        3487513444
+                    ], 
+                    [
+                        -2, 
+                        1932735283
+                    ], 
+                    [
+                        -15, 
+                        3932901553
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10235": {
+            "auto_on_terrain": false, 
+            "id": 10235, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        49, 
+                        3100966388
+                    ], 
+                    [
+                        -2, 
+                        1932735283
+                    ], 
+                    [
+                        -22, 
+                        1506245031
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10236": {
+            "auto_on_terrain": false, 
+            "id": 10236, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8901960784313725, 
+                    0.1411764705882353, 
+                    0.058823529411764705
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        42, 
+                        1315265132
+                    ], 
+                    [
+                        9, 
+                        2877628103
+                    ], 
+                    [
+                        24, 
+                        3899593827
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10237": {
+            "auto_on_terrain": false, 
+            "id": 10237, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8901960784313725, 
+                    0.1411764705882353, 
+                    0.058823529411764705
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        46, 
+                        2250512037
+                    ], 
+                    [
+                        9, 
+                        2877628103
+                    ], 
+                    [
+                        26, 
+                        28888623
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10238": {
+            "auto_on_terrain": false, 
+            "id": 10238, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8901960784313725, 
+                    0.1411764705882353, 
+                    0.058823529411764705
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        43, 
+                        2136581525
+                    ], 
+                    [
+                        9, 
+                        2877628103
+                    ], 
+                    [
+                        29, 
+                        609750015
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10239": {
+            "auto_on_terrain": false, 
+            "id": 10239, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -8, 
+                        1636131862
+                    ], 
+                    [
+                        0, 
+                        2362231982
+                    ], 
+                    [
+                        -40, 
+                        1689403392
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10240": {
+            "auto_on_terrain": false, 
+            "id": 10240, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        6, 
+                        765971488
+                    ], 
+                    [
+                        0, 
+                        2362231982
+                    ], 
+                    [
+                        -40, 
+                        1689403392
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10241": {
+            "auto_on_terrain": false, 
+            "id": 10241, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 6.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        20, 
+                        493018676
+                    ], 
+                    [
+                        0, 
+                        2362231982
+                    ], 
+                    [
+                        -40, 
+                        1689403392
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10242": {
+            "auto_on_terrain": false, 
+            "id": 10242, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8901960784313725, 
+                    0.1411764705882353, 
+                    0.058823529411764705
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        32, 
+                        4217657885
+                    ], 
+                    [
+                        14, 
+                        2147483648
+                    ], 
+                    [
+                        -49, 
+                        614609820
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10243": {
+            "auto_on_terrain": false, 
+            "id": 10243, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8901960784313725, 
+                    0.1411764705882353, 
+                    0.058823529411764705
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        34, 
+                        1460718377
+                    ], 
+                    [
+                        14, 
+                        2061584302
+                    ], 
+                    [
+                        -44, 
+                        2856153252
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10244": {
+            "auto_on_terrain": false, 
+            "id": 10244, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8901960784313725, 
+                    0.1411764705882353, 
+                    0.058823529411764705
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 300.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        38, 
+                        1459859384
+                    ], 
+                    [
+                        14, 
+                        1868310774
+                    ], 
+                    [
+                        -48, 
+                        1931017296
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10246": {
+            "auto_on_terrain": false, 
+            "id": 10246, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        31, 
+                        2583217851
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -5, 
+                        1353490688
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10248": {
+            "auto_on_terrain": false, 
+            "id": 10248, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        31, 
+                        2515052219
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -18, 
+                        2874183011
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10250": {
+            "auto_on_terrain": false, 
+            "id": 10250, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        31, 
+                        2608924347
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -28, 
+                        3581472826
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10252": {
+            "auto_on_terrain": false, 
+            "id": 10252, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        31, 
+                        2667921952
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        4, 
+                        2358898710
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10253": {
+            "auto_on_terrain": false, 
+            "id": 10253, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        31, 
+                        2598474981
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        26, 
+                        1802414652
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10255": {
+            "auto_on_terrain": false, 
+            "id": 10255, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        31, 
+                        3349644994
+                    ], 
+                    [
+                        2, 
+                        816043786
+                    ], 
+                    [
+                        15, 
+                        2866461173
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10257": {
+            "auto_on_terrain": false, 
+            "id": 10257, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        19, 
+                        1202586166
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        31, 
+                        1135253473
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10259": {
+            "auto_on_terrain": false, 
+            "id": 10259, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        10, 
+                        840491574
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        31, 
+                        1015240673
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10261": {
+            "auto_on_terrain": false, 
+            "id": 10261, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        0, 
+                        4168122934
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        31, 
+                        1198143457
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10263": {
+            "auto_on_terrain": false, 
+            "id": 10263, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -9, 
+                        3363717685
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        31, 
+                        1295620065
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10265": {
+            "auto_on_terrain": false, 
+            "id": 10265, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -18, 
+                        125018394
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        31, 
+                        1365302257
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10267": {
+            "auto_on_terrain": false, 
+            "id": 10267, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -32, 
+                        1847623542
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        22, 
+                        2534658524
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10269": {
+            "auto_on_terrain": false, 
+            "id": 10269, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -32, 
+                        1691713398
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        13, 
+                        1774498268
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10271": {
+            "auto_on_terrain": false, 
+            "id": 10271, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -32, 
+                        1807015798
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        4, 
+                        996233692
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10273": {
+            "auto_on_terrain": false, 
+            "id": 10273, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -32, 
+                        1896062838
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -5, 
+                        290709980
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10275": {
+            "auto_on_terrain": false, 
+            "id": 10275, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -32, 
+                        1740087158
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -15, 
+                        3602747868
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10276": {
+            "auto_on_terrain": false, 
+            "id": 10276, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        23, 
+                        2901041718
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -32, 
+                        2914451539
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10280": {
+            "auto_on_terrain": false, 
+            "id": 10280, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -4, 
+                        362123547
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -32, 
+                        2586255401
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10282": {
+            "auto_on_terrain": false, 
+            "id": 10282, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -14, 
+                        3631751451
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -32, 
+                        2913878057
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10283": {
+            "auto_on_terrain": false, 
+            "id": 10283, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        5, 
+                        1051205902
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -32, 
+                        2740682772
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10284": {
+            "auto_on_terrain": false, 
+            "id": 10284, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.8196078431372549, 
+                    0.796078431372549, 
+                    0.12941176470588237
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 150.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 4.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        14, 
+                        1945280782
+                    ], 
+                    [
+                        2, 
+                        1374389536
+                    ], 
+                    [
+                        -32, 
+                        2737823764
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    3, 
+                    450152477
+                ]
+            }
+        }, 
+        "10286": {
+            "auto_on_terrain": false, 
+            "id": 10286, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.996078431372549, 
+                    0.6784313725490196, 
+                    0.2823529411764706
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 8.0, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        34, 
+                        1428352573
+                    ], 
+                    [
+                        0, 
+                        1760936583
+                    ], 
+                    [
+                        -7, 
+                        125410134
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10290": {
+            "auto_on_terrain": false, 
+            "id": 10290, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.996078431372549, 
+                    0.6784313725490196, 
+                    0.2823529411764706
+                ]
+            }, 
+            "light_inner_angle": 60.0, 
+            "light_intensity": 1000.0, 
+            "light_out_angle": 90.0, 
+            "light_range": 8.5, 
+            "name": "\u70b9\u5149\u6e90", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        45, 
+                        2148342641
+                    ], 
+                    [
+                        0, 
+                        4058744095
+                    ], 
+                    [
+                        5, 
+                        3048567787
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "type": 131072, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }
+    }, 
+    "262144": {
+        "10289": {
+            "auto_on_terrain": false, 
+            "id": 10289, 
+            "light_cast_shadow": false, 
+            "light_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.996078431372549, 
+                    0.796078431372549, 
+                    0.0
+                ]
+            }, 
+            "light_inner_angle": 4.0, 
+            "light_intensity": 673.5, 
+            "light_out_angle": 90.0, 
+            "light_range": 12.635, 
+            "name": "\u805a\u5149\u706f", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    -1, 
+                    3990175435
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        46, 
+                        2603042173
+                    ], 
+                    [
+                        -3, 
+                        816043771
+                    ], 
+                    [
+                        4, 
+                        947604828
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    -1, 
+                    3348664446
+                ]
+            }, 
+            "type": 262144, 
+            "use_lumens": true, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    -1, 
+                    1195034399
+                ]
+            }
+        }
+    }, 
+    "1048576": {
+        "10291": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.03137254901960784, 
+                    0.03529411764705882, 
+                    0.08627450980392157, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.3, 
+            "fog_height": 5.0, 
+            "fog_speed": 20.0, 
+            "id": 10291, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -1, 
+                        395566488
+                    ], 
+                    [
+                        -2, 
+                        2963527434
+                    ], 
+                    [
+                        36, 
+                        1340459293
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    41.76, 
+                    3.33, 
+                    11.9
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10292": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.03137254901960784, 
+                    0.03529411764705882, 
+                    0.08627450980392157, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.3, 
+            "fog_height": 5.0, 
+            "fog_speed": 20.0, 
+            "id": 10292, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -35, 
+                        3528315634
+                    ], 
+                    [
+                        -2, 
+                        2963527434
+                    ], 
+                    [
+                        0, 
+                        1888067623
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    7.94, 
+                    3.33, 
+                    33.75
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10293": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.03137254901960784, 
+                    0.03529411764705882, 
+                    0.08627450980392157, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.3, 
+            "fog_height": 5.0, 
+            "fog_speed": 20.0, 
+            "id": 10293, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -2, 
+                        3456589680
+                    ], 
+                    [
+                        -2, 
+                        2963527434
+                    ], 
+                    [
+                        -33, 
+                        925994949
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    41.76, 
+                    3.33, 
+                    11.9
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }, 
+        "10295": {
+            "fog_color": {
+                "__tuple__": true, 
+                "items": [
+                    0.03137254901960784, 
+                    0.03529411764705882, 
+                    0.08627450980392157, 
+                    1.0
+                ]
+            }, 
+            "fog_density": 0.3, 
+            "fog_height": 5.0, 
+            "fog_speed": 20.0, 
+            "id": 10295, 
+            "name": "\u5c40\u90e8\u96fe", 
+            "pitch": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        35, 
+                        656700500
+                    ], 
+                    [
+                        -2, 
+                        2963527434
+                    ], 
+                    [
+                        0, 
+                        370655678
+                    ]
+                ]
+            }, 
+            "roll": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    7.94, 
+                    3.33, 
+                    33.75
+                ]
+            }, 
+            "type": 1048576, 
+            "yaw": {
+                "__tuple__": true, 
+                "items": [
+                    0, 
+                    0
+                ]
+            }
+        }
+    }, 
+    "2097152": {}, 
+    "4194304": {}, 
+    "134217728": {}
+}

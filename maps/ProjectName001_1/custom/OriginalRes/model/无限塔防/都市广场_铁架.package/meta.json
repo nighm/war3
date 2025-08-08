@@ -1,0 +1,28 @@
+{
+    "id": 134275304,
+    "materials": [
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            },
+            {
+                "name": "Common/Materials/MaterialFlag/M_PBR_Base__Clipping_Flag",
+                "source_path": {}
+            }
+        ]
+    ],
+    "md5_file_list": [
+        "\u90fd\u5e02\u5e7f\u573a_\u94c1\u67b6.fbx"
+    ],
+    "modification_time": 3470983008.2816544,
+    "ori_res_type": "ori",
+    "physic": true,
+    "preview_icon": "thumbnail.png",
+    "res_type": "model",
+    "skeleton": "",
+    "source_path": "\u90fd\u5e02\u5e7f\u573a_\u94c1\u67b6.fbx",
+    "static_import": true,
+    "version": 1,
+    "yaw": 0
+}
