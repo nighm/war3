@@ -124,6 +124,38 @@ class QuickStart:
         
         return True
     
+    def configure_y3_editor(self) -> bool:
+        """配置Y3编辑器"""
+        print("🔧 配置Y3编辑器...")
+        
+        # 验证Y3编辑器路径
+        y3_path = Path("D:\\Program Files\\y3\\games\\2.0\\game\\Editor.exe")
+        
+        if y3_path.exists():
+            print(f"✅ 找到Y3编辑器: {y3_path}")
+            
+            # 更新配置文件
+            if self.config_file.exists():
+                import yaml
+                with open(self.config_file, 'r', encoding='utf-8') as f:
+                    config = yaml.safe_load(f)
+                
+                config['editor']['y3_editor_path'] = str(y3_path)
+                config['editor']['default_editor'] = "y3_editor"
+                
+                with open(self.config_file, 'w', encoding='utf-8') as f:
+                    yaml.dump(config, f, default_flow_style=False, 
+                             allow_unicode=True, indent=2)
+                
+                print("✅ Y3编辑器配置已更新")
+                return True
+        else:
+            print("❌ 未找到Y3编辑器")
+            print("请检查路径: D:\\Program Files\\y3\\games\\2.0\\game\\Editor.exe")
+            return False
+        
+        return True
+    
     def create_sample_project(self) -> bool:
         """创建示例项目"""
         print("🔧 创建示例项目...")
@@ -151,6 +183,41 @@ class QuickStart:
             print("⚠️ 未找到项目模板生成器")
             return False
     
+    def launch_y3_editor(self) -> bool:
+        """启动Y3编辑器"""
+        print("🚀 启动Y3编辑器...")
+        
+        try:
+            # 读取配置文件获取Y3编辑器路径
+            import yaml
+            with open(self.config_file, 'r', encoding='utf-8') as f:
+                config = yaml.safe_load(f)
+            
+            y3_path = config.get('editor', {}).get('y3_editor_path')
+            
+            if not y3_path or not Path(y3_path).exists():
+                print("❌ Y3编辑器路径未配置或不存在")
+                print("请先运行配置步骤")
+                return False
+            
+            print(f"正在启动: {y3_path}")
+            
+            # 启动Y3编辑器
+            subprocess.Popen([y3_path], cwd=Path(y3_path).parent)
+            
+            print("✅ Y3编辑器启动成功！")
+            print("\n📝 创建新地图步骤:")
+            print("1. 在Y3编辑器中点击 '文件' -> '新建项目'")
+            print("2. 选择项目类型（建议选择 '空白项目'）")
+            print("3. 设置项目名称和保存路径")
+            print("4. 点击 '创建' 开始编辑")
+            
+            return True
+            
+        except Exception as e:
+            print(f"❌ 启动Y3编辑器失败: {e}")
+            return False
+    
     def show_next_steps(self) -> None:
         """显示下一步操作指南"""
         print("\n" + "="*50)
@@ -165,9 +232,9 @@ class QuickStart:
         print("   # 查看README.md了解项目结构")
         print("   # 查看docs/使用指南.md了解开发流程")
         
-        print("\n3. 启动World Editor:")
-        print("   # 找到魔兽争霸3安装目录")
-        print("   # 运行 World Editor.exe")
+        print("\n3. 启动Y3编辑器:")
+        print("   # 运行: python quick_start.py launch_y3")
+        print("   # 或者直接运行: D:\\Program Files\\y3\\games\\2.0\\game\\Editor.exe")
         
         print("\n4. 开始地图开发:")
         print("   # 创建新地图")
@@ -186,7 +253,8 @@ class QuickStart:
         print("- 加入地图制作社区")
         
         print("\n🔧 开发工具:")
-        print("- World Editor: 官方地图编辑器")
+        print("- Y3编辑器: 现代化的魔兽争霸3地图编辑器")
+        print("- World Editor: 官方地图编辑器（备用）")
         print("- JNGP: 增强的JASS编辑器（可选）")
         print("- MPQ Editor: 资源文件管理工具")
         
@@ -221,6 +289,10 @@ class QuickStart:
         if not self.configure_war3_path():
             return False
         
+        # 配置Y3编辑器
+        if not self.configure_y3_editor():
+            return False
+        
         # 创建示例项目
         if not self.create_sample_project():
             return False
@@ -234,6 +306,18 @@ class QuickStart:
 def main():
     """主函数"""
     quick_start = QuickStart()
+    
+    # 检查命令行参数
+    if len(sys.argv) > 1 and sys.argv[1] == "launch_y3":
+        # 直接启动Y3编辑器
+        try:
+            success = quick_start.launch_y3_editor()
+            if not success:
+                sys.exit(1)
+        except Exception as e:
+            print(f"\n❌ 启动Y3编辑器失败: {e}")
+            sys.exit(1)
+        return
     
     try:
         success = quick_start.run()

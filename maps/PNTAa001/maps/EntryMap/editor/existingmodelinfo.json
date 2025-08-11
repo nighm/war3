@@ -1,0 +1,1226 @@
+[
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "\u5211\u5929\u65a7", 
+   32
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "\u8840\u7ffc\u9b54\u5203", 
+   32
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "\u5706\u6708\u5f2f\u5200", 
+   32
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "\u68d5\u8272\u6728\u8d28\u5b9d\u7bb1", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "\u68d5\u8272\u6728\u8d28\u5b9d\u7bb1", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "\u73b0\u4ee3\u91d1\u5c5e\u9ec4\u8272\u8def\u969c", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   4, 
+   "\u73b0\u4ee3\u6df7\u51dd\u571f\u767d\u8def\u969c", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "\u73b0\u4ee3\u7eb8\u8d28\u9ec4\u8272\u7eb8\u7bb1", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   6, 
+   "\u73b0\u4ee3\u767d\u8272\u77f3\u8d28\u6865", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   7, 
+   "\u73b0\u4ee3\u767d\u8272\u77f3\u8d28\u6865", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   8, 
+   "\u73b0\u4ee3\u767d\u8272\u77f3\u8d28\u6865", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9, 
+   "\u73b0\u4ee3\u767d\u8272\u77f3\u8d28\u6865", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   10, 
+   "\u8d75 \u4e91", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   11, 
+   "\u9a6c \u8d85", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   12, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   13, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   14, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   15, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   16, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   17, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   18, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   19, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   20, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   21, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   22, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   23, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   24, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   25, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   26, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   27, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   28, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   29, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   30, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   31, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   32, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   33, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   34, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   35, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   36, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   37, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   38, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   39, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   40, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   41, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   42, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   43, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   44, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   45, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   46, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   47, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   48, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   49, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   50, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   51, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   52, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   53, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   54, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   55, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   56, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   57, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   58, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   59, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   60, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   61, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   62, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   63, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   64, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   65, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   66, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   67, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   68, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   69, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   70, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   71, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   72, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   73, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   74, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   75, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   76, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   77, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   78, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   79, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   80, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   81, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   82, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   83, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   84, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   85, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   86, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   87, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   88, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   89, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   90, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   91, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   92, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   93, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   94, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   95, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   96, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   97, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   98, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   99, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   100, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   101, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   102, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   103, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   104, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   105, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   106, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   107, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   108, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   109, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   110, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   111, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   112, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   113, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   114, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   115, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   116, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   117, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   118, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   119, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   120, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   121, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   122, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   123, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   124, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   125, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   126, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   127, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   128, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   129, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   130, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   131, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   132, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   133, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   134, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   135, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   136, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   137, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   138, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   139, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   140, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   141, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   142, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   143, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   144, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   145, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   146, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   147, 
+   "\u5218 \u5907", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   148, 
+   "\u5173 \u7fbd", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   149, 
+   "\u5f20 \u98de", 
+   1
+  ]
+ }
+]

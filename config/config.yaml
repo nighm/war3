@@ -14,13 +14,15 @@ war3:
 # 编辑器配置
 editor:
   # 默认编辑器类型
-  default_editor: "world_editor"
+  default_editor: "y3_editor"
   # 自动保存间隔（分钟）
   auto_save_interval: 5
   # 是否启用备份
   backup_enabled: true
   # 备份间隔（分钟）
   backup_interval: 10
+  # Y3编辑器路径
+  y3_editor_path: "D:\\Program Files\\y3\\games\\2.0\\game\\Editor.exe"
 
 # 项目配置
 project:

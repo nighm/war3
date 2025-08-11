@@ -1,0 +1,370 @@
+{
+    "item": {
+        "1": {
+            "components": {
+                "attr": {
+                    "level": 1
+                }, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "item_attached": {
+                    "custom_attached_ability": null, 
+                    "custom_attached_passive_abilities": null
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                4, 
+                                1399558144
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                -7, 
+                                139706368
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "custom_material_data": {}, 
+            "editor_component": {
+                "placed_lock": false, 
+                "placed_visibility": true, 
+                "use_obj_attrs": true
+            }, 
+            "entity_id": 134257216, 
+            "kv_component": {}, 
+            "name": "\u5211\u5929\u65a7", 
+            "pid": 1, 
+            "stack_cnt": 1, 
+            "type": 32, 
+            "unit_id": 1
+        }, 
+        "2": {
+            "components": {
+                "attr": {
+                    "level": 1
+                }, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "item_attached": {
+                    "custom_attached_ability": null, 
+                    "custom_attached_passive_abilities": null
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                5, 
+                                1882345472
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                -3, 
+                                335831040
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "custom_material_data": {}, 
+            "editor_component": {
+                "placed_lock": false, 
+                "placed_visibility": true, 
+                "use_obj_attrs": true
+            }, 
+            "entity_id": 134268943, 
+            "kv_component": {}, 
+            "name": "\u8840\u7ffc\u9b54\u5203", 
+            "pid": 2, 
+            "stack_cnt": 1, 
+            "type": 32, 
+            "unit_id": 2
+        }, 
+        "3": {
+            "components": {
+                "attr": {
+                    "level": 1
+                }, 
+                "camp": {
+                    "role_id": 32
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "item_attached": {
+                    "custom_attached_ability": null, 
+                    "custom_attached_passive_abilities": null
+                }, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                4, 
+                                1990739968
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                3221245952
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "custom_material_data": {}, 
+            "editor_component": {
+                "placed_lock": false, 
+                "placed_visibility": true, 
+                "use_obj_attrs": true
+            }, 
+            "entity_id": 134244701, 
+            "kv_component": {
+                "1\u7ea7": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "1\u7ea7", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "sort": 0, 
+                    "type": 0, 
+                    "value": "\u7269\u7406\u8679\u5438+5%"
+                }, 
+                "1\u7ea7\u4ef7\u683c": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 1, 
+                    "key": "1\u7ea7\u4ef7\u683c", 
+                    "prop_cls": "PInt", 
+                    "remark": "", 
+                    "sort": 1, 
+                    "type": 2, 
+                    "value": 650
+                }, 
+                "2\u7ea7": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "2\u7ea7", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "\u653b\u51fb\u529b+13"
+                }, 
+                "2\u7ea7\u4ef7\u683c": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 1, 
+                    "key": "2\u7ea7\u4ef7\u683c", 
+                    "prop_cls": "PInt", 
+                    "remark": "", 
+                    "sort": 3, 
+                    "type": 2, 
+                    "value": 1100
+                }, 
+                "3\u7ea7": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "3\u7ea7", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "\u653b\u51fb\u529b+17"
+                }, 
+                "3\u7ea7\u4ef7\u683c": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 1, 
+                    "key": "3\u7ea7\u4ef7\u683c", 
+                    "prop_cls": "PInt", 
+                    "remark": "", 
+                    "sort": 5, 
+                    "type": 2, 
+                    "value": 1200
+                }, 
+                "4\u7ea7": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "4\u7ea7", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "sort": 6, 
+                    "type": 0, 
+                    "value": "\u7269\u7406\u8679\u5438+10% \u88ab\u52a8\uff1a\u666e\u901a\u653b\u51fb\u547d\u4e2d\u540e\u83b7\u5f97\u4e00\u4e2a\u666e\u653b\u4f24\u5bb310%\u7684\u62a4\u76fe\uff0c\u6301\u7eed25\u79d2\uff0c\u62a4\u76fe\u6700\u591a\u53ef\u50a8\u5b5820\uff08+15%\u6700\u5927\u6c14\u8840\u503c\uff09\u70b9\u3002"
+                }, 
+                "4\u7ea7_": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "4\u7ea7_", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "sort": 12, 
+                    "type": 0, 
+                    "value": "\u7269\u7406\u8679\u5438+10% \u88ab\u52a8\uff1a\u666e\u901a\u653b\u51fb\u547d\u4e2d\u540e\u83b7\u5f97\u4e00\u4e2a\u666e\u653b\u4f24\u5bb310%\u7684\u62a4\u76fe\uff0c\u6301\u7eed25\u79d2\uff0c\u62a4\u76fe\u6700\u591a\u53ef\u50a8\u5b5820|%|$\u6700\u5927\u751f\u547d|0.15|%\uff08+15%\u6700\u5927\u6c14\u8840\u503c\uff09\u70b9\u3002"
+                }, 
+                "4\u7ea7\u4ef7\u683c": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 1, 
+                    "key": "4\u7ea7\u4ef7\u683c", 
+                    "prop_cls": "PInt", 
+                    "remark": "", 
+                    "sort": 7, 
+                    "type": 2, 
+                    "value": 1550
+                }, 
+                "\u5b9d\u77f3\u7c7b\u578b": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "\u5b9d\u77f3\u7c7b\u578b", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "sort": 8, 
+                    "type": 0, 
+                    "value": ""
+                }, 
+                "\u5f53\u524d\u7b49\u7ea7": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 2, 
+                    "key": "\u5f53\u524d\u7b49\u7ea7", 
+                    "prop_cls": "PFloat", 
+                    "remark": "", 
+                    "sort": 9, 
+                    "type": 1, 
+                    "value": 1.0
+                }, 
+                "\u63a8\u8350\u5b9d\u77f3": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 1, 
+                    "key": "\u63a8\u8350\u5b9d\u77f3", 
+                    "prop_cls": "PInt", 
+                    "remark": "", 
+                    "sort": 10, 
+                    "type": 2, 
+                    "value": 1
+                }, 
+                "\u6700\u9ad8\u7b49\u7ea7": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 1, 
+                    "key": "\u6700\u9ad8\u7b49\u7ea7", 
+                    "prop_cls": "PInt", 
+                    "remark": "", 
+                    "sort": 11, 
+                    "type": 2, 
+                    "value": 4
+                }
+            }, 
+            "name": "\u5706\u6708\u5f2f\u5200", 
+            "pid": 3, 
+            "stack_cnt": 1, 
+            "type": 32, 
+            "unit_id": 3
+        }
+    }
+}
