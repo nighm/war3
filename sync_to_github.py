@@ -94,14 +94,20 @@ class GitManager:
     def run_cmd(self, cmd: str, check: bool = True, encoding: str = 'utf-8') -> str:
         """执行Git命令"""
         try:
+            # 对于push操作，使用更长的超时时间
+            timeout = self.config.get('timeout', DEFAULT_TIMEOUT)
+            if 'push' in cmd.lower():
+                timeout = max(30, timeout)  # push操作至少30秒
+            
             result = subprocess.run(
                 cmd, 
                 shell=True, 
                 capture_output=True, 
                 text=True, 
                 encoding=encoding,
-                timeout=self.config.get('timeout', DEFAULT_TIMEOUT)
+                timeout=timeout
             )
+            
             if result.returncode != 0:
                 error_msg = f"命令失败: {cmd}\n错误信息: {result.stderr}"
                 if check:
@@ -109,11 +115,23 @@ class GitManager:
                 else:
                     print(f"{colored('警告', Colors.WARNING)}: {error_msg}")
                     return ""
+            
             return result.stdout.strip()
+            
         except subprocess.TimeoutExpired:
-            raise GitSyncError(f"命令超时: {cmd}")
+            error_msg = f"命令超时: {cmd} (超时时间: {timeout}秒)"
+            if check:
+                raise GitSyncError(error_msg)
+            else:
+                print(f"{colored('警告', Colors.WARNING)}: {error_msg}")
+                return ""
         except Exception as e:
-            raise GitSyncError(f"执行命令时出错: {e}")
+            error_msg = f"执行命令时出错: {e}"
+            if check:
+                raise GitSyncError(error_msg)
+            else:
+                print(f"{colored('警告', Colors.WARNING)}: {error_msg}")
+                return ""
     
     def get_status(self) -> Dict[str, Any]:
         """获取Git状态"""
@@ -294,8 +312,28 @@ class SyncManager:
         status = self.git.get_status()
         if not status['has_changes']:
             print("  没有需要提交的更改。")
-            if input("是否仍要继续同步？(y/N): ").lower() != 'y':
-                sys.exit(0)
+            
+            # 检查是否有未推送的提交
+            try:
+                unpushed_commits = self.git.run_cmd("git log --oneline origin/main..HEAD", check=False)
+                if unpushed_commits:
+                    print(f"  发现 {len(unpushed_commits.splitlines())} 个未推送的提交:")
+                    for commit in unpushed_commits.splitlines()[:5]:  # 显示前5个
+                        print(f"    {commit}")
+                    if len(unpushed_commits.splitlines()) > 5:
+                        print(f"    ... 还有 {len(unpushed_commits.splitlines()) - 5} 个提交")
+                    
+                    choice = input("  是否继续推送到远程？(y/N): ").lower()
+                    if choice != 'y':
+                        sys.exit(0)
+                    return  # 有未推送的提交，继续执行
+                else:
+                    print("  所有提交都已推送到远程仓库。")
+                    choice = input("  是否仍要继续同步流程？(y/N): ").lower()
+                    if choice != 'y':
+                        sys.exit(0)
+            except Exception:
+                print("  无法检查未推送的提交，继续执行...")
         else:
             print(f"  发现 {len(status['files'])} 个文件有更改:")
             for file in status['files'][:10]:  # 只显示前10个
@@ -310,12 +348,28 @@ class SyncManager:
     def _add_files(self):
         """添加文件到暂存区"""
         print(f"{colored('[3/5]', Colors.OKBLUE)} 添加所有更改到暂存区...")
+        
+        # 检查是否有实际更改
+        status = self.git.get_status()
+        if not status['has_changes']:
+            print("  没有文件需要添加，跳过此步骤")
+            return
+        
         self.git.run_cmd("git add .")
         print("  ✅ 文件已添加到暂存区")
     
     def _commit_changes(self):
         """提交更改"""
         print(f"{colored('[4/5]', Colors.OKBLUE)} 提交更改...")
+        
+        # 检查是否有暂存区的更改
+        try:
+            staged_changes = self.git.run_cmd("git diff --cached --name-only", check=False)
+            if not staged_changes:
+                print("  没有暂存区的更改需要提交")
+                return
+        except Exception:
+            print("  无法检查暂存区状态，尝试继续...")
         
         # 获取提交信息
         default_msg = self.config.get('default_commit_msg', DEFAULT_COMMIT_MSG)
@@ -337,10 +391,43 @@ class SyncManager:
         print(f"{colored('[5/5]', Colors.OKBLUE)} 推送到GitHub远程仓库...")
         
         try:
-            self.git.run_cmd("git push")
-            print("  ✅ 已成功推送到GitHub！")
+            # 检查是否有需要推送的提交
+            try:
+                unpushed_commits = self.git.run_cmd("git log --oneline origin/main..HEAD", check=False)
+                if not unpushed_commits:
+                    print("  没有需要推送的提交")
+                    return
+            except Exception:
+                print("  无法检查未推送的提交，尝试继续推送...")
+            
+            # 使用更长的超时时间进行push操作
+            original_timeout = self.config.get('timeout', DEFAULT_TIMEOUT)
+            self.config.set('timeout', max(30, original_timeout))  # push操作至少30秒超时
+            
+            try:
+                self.git.run_cmd("git push")
+                print("  ✅ 已成功推送到GitHub！")
+            finally:
+                # 恢复原始超时设置
+                self.config.set('timeout', original_timeout)
+                
         except GitSyncError as e:
             print(f"  ❌ 推送失败: {e}")
+            
+            # 提供更详细的错误诊断
+            print("  诊断信息:")
+            try:
+                remote_status = self.git.run_cmd("git remote -v", check=False)
+                print(f"    远程仓库: {remote_status}")
+            except Exception:
+                print("    无法获取远程仓库信息")
+            
+            try:
+                branch_status = self.git.run_cmd("git status -sb", check=False)
+                print(f"    分支状态: {branch_status}")
+            except Exception:
+                print("    无法获取分支状态")
+            
             raise
 
 def show_help():
