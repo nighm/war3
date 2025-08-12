@@ -1,0 +1,88 @@
+# 自动生成的.gitignore文件
+# 基于项目文件分析生成
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Python构建和分发
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python测试和覆盖率
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+*.log.*
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# 本地配置文件
+.env
+.env.local
+.env.prod
+config.local.json
+secrets.json
+private.key
+local_settings.py
+
+# 地图项目临时文件（可选，根据需要调整）
+# maps/*/temp/
+# maps/*/cache/
