@@ -81,17 +81,32 @@ class War3Config:
     
     def _detect_installation_path(self):
         """自动检测War3安装路径"""
-        possible_paths = [
-            Path("C:\\Program Files\\Warcraft III"),
-            Path("C:\\Program Files (x86)\\Warcraft III"),
-            Path("D:\\Program Files\\Warcraft III"),
-            Path("D:\\Program Files (x86)\\Warcraft III"),
-        ]
+        # 优先从环境变量读取
+        import os
+        env_path = os.getenv('WAR3_INSTALLATION_PATH')
+        if env_path and Path(env_path).exists():
+            self.installation_path = Path(env_path)
+            return
         
-        for path in possible_paths:
-            if path.exists() and (path / "Warcraft III.exe").exists():
-                self.installation_path = path
-                break
+        # 从配置文件读取
+        # 这里应该通过配置管理器获取，而不是硬编码
+        # 如果都没有配置，则设置为None，由用户手动配置
+        
+        # 注释掉硬编码的路径检测，改为提示用户配置
+        # possible_paths = [
+        #     Path("C:\\Program Files\\Warcraft III"),
+        #     Path("C:\\Program Files (x86)\\Warcraft III"),
+        #     Path("D:\\Program Files\\Warcraft III"),
+        #     Path("D:\\Program Files (x86)\\Warcraft III"),
+        # ]
+        # 
+        # for path in possible_paths:
+        #     if path.exists() and (path / "Warcraft III.exe").exists():
+        #         self.installation_path = path
+        #         break
+        
+        # 提示用户需要配置路径
+        self.installation_path = None
     
     def _detect_world_editor_path(self):
         """自动检测World Editor路径"""
